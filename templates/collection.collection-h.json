@@ -1,0 +1,73 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1660257738e85aafd4": {
+      "type": "index__image-with-text-overlay",
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/18.jpg",
+        "pretext": "",
+        "title": "﻿{{ collection.title }}",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#FFFFFF",
+        "subheading_color": "#000000",
+        "pretext_font": "waza_n4",
+        "heading_font": "waza_n4",
+        "subheading_font": "waza_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#FFFFFF",
+        "background_opacity": 0,
+        "border_color": "#FFFFFF",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "product-grid": {
+      "type": "collection-template-boost-pfs-filter",
+      "settings": {}
+    }
+  },
+  "order": [
+    "1660257738e85aafd4",
+    "product-grid"
+  ]
+}

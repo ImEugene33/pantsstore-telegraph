@@ -1,0 +1,315 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "press-content",
+      "blocks": {
+        "category-1-national": {
+          "type": "category_heading",
+          "settings": {
+            "label": "I. National Media & Viral Trends",
+            "intro": "<p>Pants Store has been featured in national fashion and culture coverage spanning the Bama Rush phenomenon and broader college style trends.</p>"
+          }
+        },
+        "mention-harpers-bazaar": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "harpersbazaar.jpeg",
+            "publisher": "Harper's Bazaar",
+            "title": "How Bama Rush TikTok Changed Fashion",
+            "excerpt": "Harper's Bazaar's deep dive into how Bama Rush TikTok reshaped college fashion trends and the brands shaping the look.",
+            "url": "https://www.harpersbazaar.com/fashion/a37408035/rushtok-bamarush-fashion/",
+            "link_text": "Read about Pants Store in Harper's Bazaar"
+          }
+        },
+        "mention-slate": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "slate.jpeg",
+            "publisher": "Slate",
+            "title": "Bama Rush TikTok and the Brands Behind the Trend",
+            "excerpt": "Slate explores the Bama Rush TikTok wave and the Alabama retailers powering the trend, including Pants Store.",
+            "url": "https://slate.com/human-interest/2021/08/bama-rush-tiktok-fashion-trends-shein-golden-goose.html",
+            "link_text": "Read about Pants Store in Slate"
+          }
+        },
+        "mention-anne-helen": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "substack.jpeg",
+            "publisher": "Anne Helen Petersen (Substack)",
+            "title": "Welcome to Bama Confidential",
+            "excerpt": "Anne Helen Petersen's reporting on Tuscaloosa campus culture and the local boutiques anchoring the scene.",
+            "url": "https://annehelen.substack.com/p/welcome-to-bama-confidential",
+            "link_text": "Read about Pants Store in Bama Confidential"
+          }
+        },
+        "mention-parade": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Parade",
+            "title": "Alabama Rush TikTok: How a Sorority Tradition Became Viral Fashion",
+            "excerpt": "Parade covers the Alabama Rush TikTok phenomenon and the boutiques behind the most-shared looks.",
+            "url": "https://parade.com/1247909/jessicasager/alabama-rush-tiktok/",
+            "link_text": "Read about Pants Store in Parade"
+          }
+        },
+        "mention-refinery29": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Refinery29",
+            "title": "",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "category-2-regional": {
+          "type": "category_heading",
+          "settings": {
+            "label": "II. Southern Living & Regional Expertise",
+            "intro": "<p>Coverage that anchors Pants Store to Leeds, Tuscaloosa, Birmingham, Auburn, and Huntsville — Alabama's Southern retail landscape.</p>"
+          }
+        },
+        "mention-garden-gun": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "gardenandgun.png",
+            "publisher": "Garden & Gun",
+            "title": "Kaitlan Collins's Spirited Tuscaloosa",
+            "excerpt": "CNN anchor Kaitlan Collins guides Garden & Gun through Tuscaloosa, with Pants Store among her favorite stops.",
+            "url": "https://gardenandgun.com/articles/my-town-kaitlan-collinss-spirited-tuscaloosa/",
+            "link_text": "Read about Pants Store in Garden & Gun"
+          }
+        },
+        "mention-al-com": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "aldotcom.jpeg",
+            "publisher": "AL.com",
+            "title": "Best of Birmingham 2019",
+            "excerpt": "AL.com names Pants Store in its annual Best of Birmingham retail awards.",
+            "url": "https://www.al.com/bhammag/2019/08/shop-splurge-the-results-of-2019-best-of-birmingham.html",
+            "link_text": "Read about Pants Store in AL.com Best of Birmingham"
+          }
+        },
+        "mention-islands": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Islands.com",
+            "title": "Leeds, Alabama: An Underrated Historic Gem",
+            "excerpt": "A travel feature on Leeds, Alabama spotlighting the historic shops and Pants Store as a hometown landmark.",
+            "url": "https://www.islands.com/2055836/leeds-alabama-underrated-city-historic-gem-shops-nearby-lake-southern-food/",
+            "link_text": "Read about Pants Store in Islands.com"
+          }
+        },
+        "mention-uga-alumni": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "UGA Alumni Guide",
+            "title": "2024 Away Game Guide: Tuscaloosa",
+            "excerpt": "The University of Georgia's official away-game guide highlights Pants Store as a must-stop for SEC game-day fashion.",
+            "url": "https://alumni.uga.edu/2024/09/18/2024-away-game-guide-tuscaloosa/",
+            "link_text": "Read about Pants Store in the UGA Alumni Guide"
+          }
+        },
+        "mention-styleblueprint": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "StyleBlueprint",
+            "title": "",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "category-3-heritage": {
+          "type": "category_heading",
+          "settings": {
+            "label": "III. Brand Heritage & Trust",
+            "intro": "<p>Independent business records and industry recognitions confirming Pants Store's standing as a family-owned Alabama retailer since 1950.</p>"
+          }
+        },
+        "mention-alabama-retail": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Alabama Retail Association",
+            "title": "Gee Brothers Named Silver Retailer of the Year",
+            "excerpt": "The Alabama Retail Association honors Gee Brothers, owners of Pants Store, with its Silver Retailer of the Year award.",
+            "url": "https://alabamaretail.org/news/geebrotherspantsstoresilver/",
+            "link_text": "Read about Pants Store at the Alabama Retail Association"
+          }
+        },
+        "mention-dnb": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Dun & Bradstreet",
+            "title": "Pants Store Business Directory Profile",
+            "excerpt": "Dun & Bradstreet's independent business profile confirming Pants Store's operations in Leeds, Alabama since 1950.",
+            "url": "https://www.google.com/search?q=https://www.dandb.com/businessdirectory/thepantsstore-leeds-al-2533316.html",
+            "link_text": "View Pants Store on Dun & Bradstreet"
+          }
+        },
+        "mention-leeds-main-street": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Leeds Main Street",
+            "title": "",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "category-4-partnerships": {
+          "type": "category_heading",
+          "settings": {
+            "label": "IV. Official Brand Partnerships",
+            "intro": "<p>Pants Store is an authorized stockist for the brands featured below.</p>"
+          }
+        },
+        "mention-just-black-denim": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Just Black Denim",
+            "title": "Authorized Stockist",
+            "excerpt": "Pants Store is listed as an authorized Just Black Denim stockist across all Alabama store locations.",
+            "url": "https://www.justblackdenim.com/pages/stockists",
+            "link_text": "View Pants Store on the Just Black Denim stockist directory"
+          }
+        },
+        "mention-locally": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Locally.com",
+            "title": "Real-Time Inventory Partner",
+            "excerpt": "Pants Store partners with Locally.com to surface real-time in-store inventory to nearby shoppers.",
+            "url": "https://www.google.com/search?q=https://www.locally.com/shop/pants-store-leeds",
+            "link_text": "View Pants Store on Locally.com"
+          }
+        },
+        "mention-bogg-bag": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Bogg Bag",
+            "title": "Authorized Stockist",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "mention-turtleson": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Turtleson",
+            "title": "Authorized Stockist",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "category-5-community": {
+          "type": "category_heading",
+          "settings": {
+            "label": "V. Community & Philanthropy",
+            "intro": "<p>Pants Store's longstanding community partnerships across Alabama.</p>"
+          }
+        },
+        "mention-childrens-harbor": {
+          "type": "press_mention",
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Children's Harbor",
+            "title": "Annual Percentage Day Partnership",
+            "excerpt": "Pants Store's annual Percentage Day fundraiser supporting Children's Harbor and Alabama families facing serious illness.",
+            "url": "https://www.google.com/search?q=https://childrensharbor.com/percentage-day-pants-store-2/",
+            "link_text": "Read about Pants Store and Children's Harbor"
+          }
+        },
+        "mention-eco-credit-union": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "eCO Credit Union",
+            "title": "",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        },
+        "mention-eventgroove": {
+          "type": "press_mention",
+          "disabled": true,
+          "settings": {
+            "logo_asset": "",
+            "publisher": "Eventgroove",
+            "title": "",
+            "excerpt": "",
+            "url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "category-1-national",
+        "mention-harpers-bazaar",
+        "mention-slate",
+        "mention-anne-helen",
+        "mention-parade",
+        "mention-refinery29",
+        "category-2-regional",
+        "mention-garden-gun",
+        "mention-al-com",
+        "mention-islands",
+        "mention-uga-alumni",
+        "mention-styleblueprint",
+        "category-3-heritage",
+        "mention-alabama-retail",
+        "mention-dnb",
+        "mention-leeds-main-street",
+        "category-4-partnerships",
+        "mention-just-black-denim",
+        "mention-locally",
+        "mention-bogg-bag",
+        "mention-turtleson",
+        "category-5-community",
+        "mention-childrens-harbor",
+        "mention-eco-credit-union",
+        "mention-eventgroove"
+      ],
+      "settings": {
+        "page_intro": "Discover Pants Store in the press, in our community, and with our brand partners — building Alabama style since 1950.",
+        "founding_date": "1950",
+        "knows_about": "SEC Gameday Fashion\nBama Rush Trends\nAffordable Boutique Clothing"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

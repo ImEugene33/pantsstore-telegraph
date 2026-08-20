@@ -1,0 +1,431 @@
+{% comment %}
+** Press content section **
+
+Renders the structured press hub: 5 category sections, each containing a
+list of press mentions (logo + title + 1-sentence excerpt + descriptive
+link). Outputs a JSON-LD Organization schema dynamically generated from
+the blocks on the page so that schema.org `mentions` always matches the
+visible content. Pushes a `press_link_click` event to dataLayer on each
+outbound press link click for GA4 tracking via GTM.
+
+Block types:
+  - category_heading  : H2 + optional intro paragraph
+  - press_mention     : logo (or styled wordmark fallback) + title +
+                        excerpt + descriptive outbound link
+
+ADA notes:
+  - Every link uses descriptive text. If the merchant leaves "link_text"
+    blank, the Liquid synthesizes "Read about Pants Store in {Publisher}".
+  - Every logo image carries alt="{Publisher} features Pants Store".
+  - Headings nest correctly (page H1 in template wrapper, H2 categories,
+    H3 mention titles).
+{% endcomment %}
+
+{% assign id = section.id %}
+
+{% style %}
+  .press-page {
+    padding: 60px 24px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #1a1a1a;
+  }
+
+  .press-page__intro {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 720px;
+    margin: 0 auto 56px;
+    text-align: center;
+  }
+
+  .press-category {
+    margin-bottom: 56px;
+  }
+
+  .press-category__heading {
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 0 0 16px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #3E862F;
+    color: #1a1a1a;
+  }
+
+  .press-category__intro {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 28px;
+    color: #4a4a4a;
+    max-width: 720px;
+  }
+
+  .press-mentions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .press-mention {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .press-mention:hover,
+  .press-mention:focus-within {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    border-color: #3E862F;
+  }
+
+  .press-mention__logo-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    margin-bottom: 16px;
+  }
+
+  .press-mention__logo {
+    max-height: 80px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .press-mention__wordmark {
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 8px 12px;
+  }
+
+  .press-mention__title {
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    font-size: 17px;
+    line-height: 1.3;
+    margin: 0 0 8px;
+    color: #1a1a1a;
+  }
+
+  .press-mention__excerpt {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 16px;
+    color: #4a4a4a;
+    flex-grow: 1;
+  }
+
+  .press-mention__link {
+    font-family: 'Brandon Grotesque Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.69px;
+    font-size: 13px;
+    color: #3E862F;
+    text-decoration: underline;
+    align-self: flex-start;
+  }
+
+  .press-mention__link:hover,
+  .press-mention__link:focus-visible {
+    color: #1a1a1a;
+    outline: 2px solid transparent;
+  }
+
+  .press-mention__link:focus-visible {
+    outline-color: #3E862F;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 768px) {
+    .press-page { padding: 40px 16px 56px; }
+    .press-page__intro { font-size: 16px; margin-bottom: 36px; }
+    .press-category { margin-bottom: 40px; }
+    .press-category__heading { font-size: 20px; }
+    .press-mentions { grid-template-columns: 1fr; gap: 16px; }
+  }
+{% endstyle %}
+
+<section class="press-page" aria-label="Press and brand authority">
+  {% if section.settings.page_intro != blank %}
+    <p class="press-page__intro">{{ section.settings.page_intro }}</p>
+  {% endif %}
+
+  {%- assign in_category = false -%}
+  {%- for block in section.blocks -%}
+    {%- case block.type -%}
+
+      {%- when 'category_heading' -%}
+        {%- if in_category -%}
+          </div>
+        </div>
+        {%- endif -%}
+        <div class="press-category" {{ block.shopify_attributes }}>
+          {%- if block.settings.label != blank -%}
+            <h2 class="press-category__heading" id="press-{{ block.settings.label | handle }}">{{ block.settings.label | escape }}</h2>
+          {%- endif -%}
+          {%- if block.settings.intro != blank -%}
+            <div class="press-category__intro">{{ block.settings.intro }}</div>
+          {%- endif -%}
+          <div class="press-mentions">
+        {%- assign in_category = true -%}
+
+      {%- when 'press_mention' -%}
+        {%- unless in_category -%}
+          <div class="press-category">
+            <div class="press-mentions">
+          {%- assign in_category = true -%}
+        {%- endunless -%}
+
+        {%- if block.settings.publisher != blank -%}
+          {%- if block.settings.link_text != blank -%}
+            {%- assign mention_link_text = block.settings.link_text -%}
+          {%- else -%}
+            {%- capture mention_link_text -%}Read about Pants Store in {{ block.settings.publisher }}{%- endcapture -%}
+          {%- endif -%}
+
+          <article class="press-mention" {{ block.shopify_attributes }}>
+            <div class="press-mention__logo-slot">
+              {%- if block.settings.logo != blank -%}
+                <img class="press-mention__logo"
+                     src="{{ block.settings.logo | img_url: '400x' }}"
+                     alt="{{ block.settings.publisher | escape }} features Pants Store"
+                     width="{{ block.settings.logo.width }}"
+                     height="{{ block.settings.logo.height }}"
+                     loading="lazy">
+              {%- elsif block.settings.logo_asset != blank -%}
+                <img class="press-mention__logo"
+                     src="{{ block.settings.logo_asset | asset_url }}"
+                     alt="{{ block.settings.publisher | escape }} features Pants Store"
+                     loading="lazy">
+              {%- else -%}
+                <span class="press-mention__wordmark">{{ block.settings.publisher | escape }}</span>
+              {%- endif -%}
+            </div>
+
+            {%- if block.settings.title != blank -%}
+              <h3 class="press-mention__title">{{ block.settings.title | escape }}</h3>
+            {%- endif -%}
+
+            {%- if block.settings.excerpt != blank -%}
+              <p class="press-mention__excerpt">{{ block.settings.excerpt | escape }}</p>
+            {%- endif -%}
+
+            {%- if block.settings.url != blank -%}
+              <a class="press-mention__link"
+                 href="{{ block.settings.url }}"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 data-publisher="{{ block.settings.publisher | escape }}">{{ mention_link_text | escape }}</a>
+            {%- endif -%}
+          </article>
+        {%- endif -%}
+
+    {%- endcase -%}
+  {%- endfor -%}
+
+  {%- if in_category -%}
+    </div>
+  </div>
+  {%- endif -%}
+</section>
+
+{% comment %}
+JSON-LD Organization schema. Built dynamically from the blocks on this
+page so the schema.org `mentions` array stays in sync with what visitors
+actually see. Body-level <script type="application/ld+json"> is parsed
+by Google identically to head-level.
+{% endcomment %}
+
+{%- comment -%} Build a clean array of valid keywords (non-blank, trimmed). {%- endcomment -%}
+{%- assign keywords_raw = section.settings.knows_about | newline_to_br | split: '<br />' -%}
+{%- assign keywords_acc = '' -%}
+{%- for kw in keywords_raw -%}
+  {%- assign kw_trim = kw | strip -%}
+  {%- if kw_trim != blank -%}
+    {%- assign keywords_acc = keywords_acc | append: '||' | append: kw_trim -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign keywords_clean = keywords_acc | remove_first: '||' | split: '||' -%}
+
+{%- comment -%} Count valid mention blocks (must have title + url). {%- endcomment -%}
+{%- assign valid_mention_count = 0 -%}
+{%- for block in section.blocks -%}
+  {%- if block.type == 'press_mention' and block.settings.url != blank and block.settings.title != blank -%}
+    {%- assign valid_mention_count = valid_mention_count | plus: 1 -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ shop.name | json }},
+  "url": "{{ shop.url }}",
+  "foundingDate": {{ section.settings.founding_date | json }},
+  "knowsAbout": [
+    {%- for kw in keywords_clean -%}
+      {{ kw | json }}{%- unless forloop.last -%},{%- endunless -%}
+    {%- endfor -%}
+  ],
+  "mentions": [
+    {%- assign output_idx = 0 -%}
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'press_mention' and block.settings.url != blank and block.settings.title != blank -%}
+        {%- assign output_idx = output_idx | plus: 1 -%}
+        {
+          "@type": "CreativeWork",
+          "name": {{ block.settings.title | json }},
+          "url": {{ block.settings.url | json }}
+          {%- if block.settings.publisher != blank -%}
+          ,"publisher": { "@type": "Organization", "name": {{ block.settings.publisher | json }} }
+          {%- endif -%}
+        }{%- if output_idx < valid_mention_count -%},{%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+
+{% comment %}
+GA4 outbound link tracking. Pushes a `press_link_click` event into the
+dataLayer on each press link click. GTM (already loaded sitewide as
+GTM-WHG3VTHC and GTM-NPS5JGF9 in layout/theme.liquid) listens for this
+event and forwards it to GA4 once the merchant configures the trigger
+and tag in the GTM admin.
+{% endcomment %}
+<script>
+  (function () {
+    var links = document.querySelectorAll('.press-mention__link');
+    if (!links.length) return;
+    Array.prototype.forEach.call(links, function (link) {
+      link.addEventListener('click', function () {
+        if (window.dataLayer) {
+          window.dataLayer.push({
+            event: 'press_link_click',
+            link_url: link.href,
+            link_text: (link.textContent || '').trim(),
+            publisher: link.getAttribute('data-publisher') || ''
+          });
+        }
+      });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Press content",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Page intro"
+    },
+    {
+      "type": "text",
+      "id": "page_intro",
+      "label": "Intro paragraph",
+      "default": "Discover Pants Store in the press, in our community, and with our brand partners since 1950."
+    },
+    {
+      "type": "header",
+      "content": "JSON-LD schema"
+    },
+    {
+      "type": "text",
+      "id": "founding_date",
+      "label": "Founding year",
+      "default": "1950",
+      "info": "Used in the Organization schema."
+    },
+    {
+      "type": "textarea",
+      "id": "knows_about",
+      "label": "Topical keywords",
+      "default": "SEC Gameday Fashion\nBama Rush Trends\nAffordable Boutique Clothing",
+      "info": "One per line. Used in the Organization schema's knowsAbout array."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "category_heading",
+      "name": "Category heading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Category title",
+          "default": "Category"
+        },
+        {
+          "type": "richtext",
+          "id": "intro",
+          "label": "Optional intro paragraph"
+        }
+      ]
+    },
+    {
+      "type": "press_mention",
+      "name": "Press mention",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Publisher logo (uploaded)",
+          "info": "Preferred. Upload via the customizer. Falls back to logo_asset, then to a styled wordmark."
+        },
+        {
+          "type": "text",
+          "id": "logo_asset",
+          "label": "Logo asset filename",
+          "info": "Optional fallback. Filename of an image already in theme assets/ (e.g., 'aldotcom.jpeg'). Used only when no logo image is uploaded above."
+        },
+        {
+          "type": "text",
+          "id": "publisher",
+          "label": "Publisher name",
+          "info": "Used as alt text and as the wordmark fallback."
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Article / mention title"
+        },
+        {
+          "type": "textarea",
+          "id": "excerpt",
+          "label": "1-sentence excerpt"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "Outbound link URL"
+        },
+        {
+          "type": "text",
+          "id": "link_text",
+          "label": "Descriptive link text",
+          "info": "ADA-compliant. If blank, defaults to: Read about Pants Store in {Publisher}"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Press content"
+    }
+  ]
+}
+{% endschema %}

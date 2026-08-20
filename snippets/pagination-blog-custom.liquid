@@ -1,0 +1,36 @@
+{%- if paginate.parts.size > 0 -%}
+  <div class="pagination-wrapper">
+    <nav class="pagination__nav" role="navigation">
+      <ul class="pagination__list list-unstyled" role="list">
+      {%- if paginate.previous -%}
+        <li><a href="{{ paginate.previous.url }}" class="pagination__item pagination__item-arrow pagination__item--prev" aria-label="Page Previous" title="Page Previous">{% render 'icon-arrow-prev' %}</a></li>
+      {%- else -%}
+        <li class="pagination__item pagination__item-arrow pagination__item--prev disabled" aria-label="Page Previous">{% render 'icon-arrow-prev' %}</li>
+      {%- endif -%}
+
+        {%- for part in paginate.parts -%}
+          {%- if part.is_link -%}
+            <li class="pagination__item"><a href="{{ part.url }}" aria-label="Page {{ part.title }}" title="Page {{ part.title }}">{{ part.title }}</a></li>
+          {%- elsif part.title == '&hellip;'-%}
+            <li class="pagination__item"><span aria-label="Page ...">...</span></li>
+          {%- else -%}
+            <li><span class="pagination__item pagination__item--current" aria-label="Page {{ part.title }}">{{ part.title }}</span></li>
+          {%- endif -%}
+        {%- endfor -%}
+
+        {%- if paginate.next -%}
+          <a
+            href="{{ paginate.next.url }}{{ anchor }}"
+            class="pagination__item pagination__item--next pagination__item-arrow"
+          >
+            {% render 'icon-arrow-next' %}
+          </a>
+        {%- else -%}
+          <li class="pagination__item pagination__item-arrow pagination__item--next disabled" aria-label="Page Next">
+            {% render 'icon-arrow-next' %}
+          </li>
+        {%- endif -%}
+      </ul>
+    </nav>
+  </div>
+{%- endif -%}

@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/18.jpg",
+        "image_darken": false,
+        "subtitle": "",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "center",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "image_with_text_overlay": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "image": "shopify://shop_images/18.jpg",
+        "mobile_image": "shopify://shop_images/18_4.jpg",
+        "pretext": "",
+        "title": "About Us",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#ffffff",
+        "subheading_color": "#000000",
+        "pretext_font": "waza_n4",
+        "heading_font": "waza_n4",
+        "subheading_font": "waza_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 0,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--primary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--primary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16418291602dc9aa75": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "164182916006b680a2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "164182916006b680a2-2": {
+          "type": "text",
+          "settings": {
+            "title": "Our Story",
+            "heading_size": "regular",
+            "text": "<p>Mr. Taylor Gee founded the Pants Store in 1950. It was located in downtown Leeds, AL. Taylor Gee started as a pant jobber in 1950. He would climb into his Mercury and drive the Southeast selling his pants to retailers. People began shopping his warehouse in Leeds and milling through his pant bins for pants. People in Leeds named it \"The Pants Store\". Taylor Gee said, \"They started buying pants from me and they just called it \"The Pants Store\".  While Pants Store started out carrying a wide variety of industrial clothing brands, we now carry clothing, shoes, and accessories for the whole family. People in Leeds and the surrounding Birmingham area have come to know and trust The Pants Store for the lowest prices and best customer service. The Pants Store has since expanded to six locations around Birmingham, Tuscaloosa, Auburn and Huntsville.<br/></p><p>The Pants Store today is still run by the Gee family. Grandsons of Taylor Gee, Michael Gee and John Gee. Their goals and ideals are still the same as Taylor Gee's, to always put the customer first and make sure of their satisfaction.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#1a1a1a",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164182916006b680a2-0",
+        "164182916006b680a2-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 28,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165912692486d266ea": {
+      "type": "video-with-text",
+      "settings": {
+        "video_position": "right",
+        "title-1": "OUR Brands",
+        "heading_size": "regular",
+        "text": "<p>Pants Store carries all of your favorite brands for the whole family! Shop brands like HOKA, Gold Hinge, Dolce Vita, Aftco, Southern Shirt, Splits59, Bogg Bags and so much more! </p>",
+        "button_label-2": "",
+        "link": "",
+        "button_style-2": "button--primary",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "alignment": "left",
+        "vertical_position": "center",
+        "aspect_ratio": "16:9",
+        "autoplay": false,
+        "autoloop": true,
+        "mute_video": false,
+        "controls": true,
+        "iframe_video": "https://www.youtube.com/watch?v=8NxS0vrPcsA",
+        "html5_video": "",
+        "image": "shopify://shop_images/20.jpg",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "horizontal_text_position": "center",
+        "vertical_text_position": "center",
+        "text_align": "center",
+        "button_label": "Play Video",
+        "button_style": "button--secondary",
+        "overlay_style": "text_only",
+        "video_overlay_color": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "background_opacity": 0,
+        "text_width": 70,
+        "mobile_text_below_video": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 59,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1658514629f527ffde": {
+      "type": "index__image-with-text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 30,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1658951521592e5cb6": {
+      "type": "index__heading",
+      "settings": {
+        "preheading": "",
+        "title": "Shop the Gram",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 15,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "16585150045d7b840a": {
+      "type": "apps",
+      "blocks": {
+        "6c0894ea-1fd5-453e-8195-f37646c811c6": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "6c0894ea-1fd5-453e-8195-f37646c811c6"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "image_with_text_overlay",
+    "16418291602dc9aa75",
+    "165912692486d266ea",
+    "1658514629f527ffde",
+    "1658951521592e5cb6",
+    "16585150045d7b840a"
+  ]
+}

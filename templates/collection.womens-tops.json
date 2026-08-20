@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_9da7af22-7f5e-4078-91d1-e1e897e7e4da.png",
+        "image_darken": false,
+        "banner_height": "medium",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection-template-boost-pfs-filter",
+      "custom_css": [],
+      "settings": {}
+    },
+    "index_divider_dKJqxW": {
+      "type": "index__divider",
+      "name": "Divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 3,
+        "divider_color": "#71b954",
+        "alignment": "center",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_VHCTdD": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Women’s Tops You’ll Actually Wear",
+        "subheading": "<p>Your closet deserves variety, and Pants Store has you covered with women’s casual tops that fit every mood and moment. From easygoing tees to chic blouses, our collection brings together comfort, fashion, and the perfect fit. We carry women’s shirts and tops for all occasions: gameday looks, everyday errands, or a night out with friends. With new arrivals landing often, there’s always something fresh waiting to add to your closet.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 20,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_RaDNWp": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_43TCa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/womens_tops_1.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_JWBypN": {
+          "type": "text",
+          "settings": {
+            "title": "Everyday Casual Styles",
+            "heading_size": "regular",
+            "text": "<p>Keep it laid-back with our casual tops for women. Think tanks, bodysuits, graphic tees, crop tops, and baby tees; all made for casual settings but styled to look cute beyond the basics. Pair them with high waisted bottoms, a mini skirt, or shorts, and you’ve got an outfit that feels as good as it looks.</p><p>Our curated selection makes it easy to find casual tops that work for class, brunch, or hanging with friends. With fabrics designed for comfort and styles that stay on trend, these cute women’s tops are ready for anything.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_43TCa3",
+        "text_JWBypN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_dPQJ3P": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "text_PrpLAk": {
+          "type": "text",
+          "settings": {
+            "title": "Dressy Fits Made Easy",
+            "heading_size": "regular",
+            "text": "<p>When the event calls for something a little more polished, our dressy tops step in. Browse blouses, upscale tanks, chic bodysuits, and stylish sets that transition effortlessly from day to night.</p><p>These work tops and evening-ready styles fit right in for dinner plans, sorority functions, or date nights. They’re versatile enough to dress up with accessories and shoes or keep simple for a more understated look.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "#fefaef",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "image_WFxX6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/womens_tops_3.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PrpLAk",
+        "image_WFxX6a"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_JBjpEQ": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_p8qBcx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/womens_tops_2.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_nyzff8": {
+          "type": "text",
+          "settings": {
+            "title": "Cozy & Comfortable",
+            "heading_size": "regular",
+            "text": "<p>Fall days, cool classrooms, or casual weekends all call for cozy tops. Pants Store’s women’s fall tops include sweaters, sweatshirts, and loose-fit shirts that balance style with comfort.</p><p>Layer them over a crop top or pair with your favorite jeans or joggers for a look that’s relaxed yet put together. These pieces are built for lounging, studying, or grabbing coffee with friends, making them closet staples for every season.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_p8qBcx",
+        "text_nyzff8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_dbd38q": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Shop Pants Store?",
+        "subheading": "<p>At Pants Store, fashion feels fun and approachable. Our curated style makes it easy to shop women’s shirts and tops that fit your life - from casual settings to special events. We stock trusted brands and fresh new arrivals, so you can build outfits with confidence. With free shipping on orders over $100, family-friendly fashion, and a wide range of women’s styles, Pants Store is your go-to boutique for everyday fits.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "index_divider_dKJqxW",
+    "index_heading_VHCTdD",
+    "index_image_with_text_RaDNWp",
+    "index_image_with_text_dPQJ3P",
+    "index_image_with_text_JBjpEQ",
+    "index_heading_dbd38q"
+  ]
+}

@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "center",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "contact": {
+      "type": "index__contact-form",
+      "blocks": {
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a": {
+          "type": "textfield",
+          "settings": {
+            "label": "Full Name",
+            "required": true
+          }
+        },
+        "a8554837-a77c-4c87-8398-15cb200375c5": {
+          "type": "email",
+          "settings": {
+            "label": "Email Address"
+          }
+        },
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9": {
+          "type": "textfield",
+          "settings": {
+            "label": "Phone Number",
+            "required": false
+          }
+        },
+        "eadeb86b-f11a-4f28-a137-6e2480627839": {
+          "type": "textfield",
+          "settings": {
+            "label": "Subject",
+            "required": false
+          }
+        },
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e": {
+          "type": "textarea",
+          "settings": {
+            "label": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a",
+        "a8554837-a77c-4c87-8398-15cb200375c5",
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9",
+        "eadeb86b-f11a-4f28-a137-6e2480627839",
+        "433fc484-88c1-4ec8-8a8d-fc063586f91e"
+      ],
+      "settings": {
+        "title": "INQUIRY",
+        "address": "Pants Store 8029 Parkway Drive Leeds, AL 35094",
+        "address_link": "https://maps.app.goo.gl/yn6mCuTXcZYy1bBDA",
+        "phone": "T 205-699-6166",
+        "phone_link": "tel:+12056996166",
+        "email": "orders@pantsstore.com",
+        "social_enable": false,
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact"
+  ]
+}

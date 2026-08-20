@@ -1,0 +1,203 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "center",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "contact": {
+      "type": "index__contact-form",
+      "blocks": {
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a": {
+          "type": "textfield",
+          "settings": {
+            "label": "First Name",
+            "required": true
+          }
+        },
+        "3a3f6937-6e65-41f7-994c-649f524d0265": {
+          "type": "textfield",
+          "settings": {
+            "label": "Last Name",
+            "required": true
+          }
+        },
+        "57b0cdf4-fc39-4c21-bf00-f7af32046382": {
+          "type": "date",
+          "settings": {
+            "label": "Birthdate",
+            "required": true
+          }
+        },
+        "51a1eebd-5a55-4eab-bff2-5a2b4071f3a2": {
+          "type": "textfield",
+          "settings": {
+            "label": "Education",
+            "required": false
+          }
+        },
+        "a8554837-a77c-4c87-8398-15cb200375c5": {
+          "type": "email",
+          "settings": {
+            "label": "Email Address"
+          }
+        },
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9": {
+          "type": "textfield",
+          "settings": {
+            "label": "Phone Number",
+            "required": true
+          }
+        },
+        "421b8321-bef2-4d7e-ab2b-681b5695ea67": {
+          "type": "textarea",
+          "settings": {
+            "label": "Street Address",
+            "required": true
+          }
+        },
+        "e41757a0-f3d3-497a-a300-9c657ab0f645": {
+          "type": "multiple_fields",
+          "settings": {
+            "label": "Previous employment",
+            "label_1": "Employment 1",
+            "required_1": true,
+            "label_2": "Employment 2",
+            "required_2": false,
+            "label_3": "Employment 3",
+            "required_3": false
+          }
+        },
+        "0d9f3817-73bd-4481-b8c6-a53573230a4f": {
+          "type": "multiple_fields",
+          "settings": {
+            "label": "References",
+            "label_1": "Reference 1",
+            "required_1": true,
+            "label_2": "Reference 2",
+            "required_2": false,
+            "label_3": "Reference 3",
+            "required_3": false
+          }
+        },
+        "3cbd085f-2296-4285-a438-7a0a0e781de2": {
+          "type": "textfield",
+          "settings": {
+            "label": "What position are you applying for?",
+            "required": false
+          }
+        },
+        "ca7e73fb-bf1e-4332-8793-7b3fac50defe": {
+          "type": "textfield",
+          "settings": {
+            "label": "Position desired",
+            "required": false
+          }
+        },
+        "3e02cf55-4aea-45e4-9820-94ba93f4ce94": {
+          "type": "radio",
+          "settings": {
+            "label": "Full time or part time?",
+            "required": true,
+            "options_1": "Full time",
+            "options_2": "Part Time",
+            "options_3": "",
+            "options_4": "",
+            "options_5": "",
+            "options_6": "",
+            "options_7": "",
+            "options_8": "",
+            "options_9": "",
+            "options_10": ""
+          }
+        },
+        "447f00ed-f179-498d-96ea-37d67cd5a622": {
+          "type": "textfield",
+          "settings": {
+            "label": "What location do you want to work at?",
+            "required": false
+          }
+        },
+        "7c1b1afa-8db4-4e27-acae-304341392b11": {
+          "type": "date",
+          "settings": {
+            "label": "When can you start?",
+            "required": true
+          }
+        },
+        "414eaf9e-8318-45fa-b03e-76f0eafd42ef": {
+          "type": "textarea",
+          "settings": {
+            "label": "Give a brief description of yourself and why you can help Pants Store",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a",
+        "3a3f6937-6e65-41f7-994c-649f524d0265",
+        "57b0cdf4-fc39-4c21-bf00-f7af32046382",
+        "51a1eebd-5a55-4eab-bff2-5a2b4071f3a2",
+        "a8554837-a77c-4c87-8398-15cb200375c5",
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9",
+        "421b8321-bef2-4d7e-ab2b-681b5695ea67",
+        "e41757a0-f3d3-497a-a300-9c657ab0f645",
+        "0d9f3817-73bd-4481-b8c6-a53573230a4f",
+        "3cbd085f-2296-4285-a438-7a0a0e781de2",
+        "ca7e73fb-bf1e-4332-8793-7b3fac50defe",
+        "3e02cf55-4aea-45e4-9820-94ba93f4ce94",
+        "447f00ed-f179-498d-96ea-37d67cd5a622",
+        "7c1b1afa-8db4-4e27-acae-304341392b11",
+        "414eaf9e-8318-45fa-b03e-76f0eafd42ef"
+      ],
+      "settings": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "social_enable": false,
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 40,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact"
+  ]
+}

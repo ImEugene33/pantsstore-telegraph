@@ -1,0 +1,88 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "center",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "contact": {
+      "type": "index__contact-form",
+      "blocks": {
+        "9ca4da57-1a50-4aad-966a-d7d8ebcda431": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Returns & Exchange</strong></p><p>Please enter the order details below</p>"
+          }
+        },
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a": {
+          "type": "textfield",
+          "settings": {
+            "label": "Enter your order number",
+            "required": true
+          }
+        },
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9": {
+          "type": "textfield",
+          "settings": {
+            "label": "Enter your shipping zip code",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "9ca4da57-1a50-4aad-966a-d7d8ebcda431",
+        "819ccdac-5c74-43bc-b47b-4b11cc82382a",
+        "10f1f8d9-823d-4ec5-8feb-a702d8fb85a9"
+      ],
+      "settings": {
+        "title": "",
+        "address": "",
+        "phone": "",
+        "email": "",
+        "social_enable": false,
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#000000",
+        "form_position": "right",
+        "width": "standard",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 40,
+        "margin_bottom": 40,
+        "padding_top_m": 80,
+        "padding_bottom_m": 80,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 30,
+        "margin_bottom_m": 33,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "contact"
+  ]
+}

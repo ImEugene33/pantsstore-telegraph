@@ -1,0 +1,1437 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "index_image_with_text_overlay_F3tieJ": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "link": "shopify://collections/womens-gameday",
+        "image": "shopify://shop_images/BANNER_TEMPLATE_2fd67d4c-b684-44a0-a25b-7f61c320026f.png",
+        "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_2fd67d4c-b684-44a0-a25b-7f61c320026f.png",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "pretext_font": "pinyon_script_n4",
+        "heading_font": "pinyon_script_n4",
+        "subheading_font": "pinyon_script_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_slideshow_classic_jHjzFJ": {
+      "type": "index__slideshow-classic",
+      "blocks": {
+        "image_gQCVrJ": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/womens-gameday",
+            "image": "shopify://shop_images/75.png",
+            "mobile_image": "shopify://shop_images/75.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_6T3MTn": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/womens-gameday",
+            "image": "shopify://shop_images/74.png",
+            "mobile_image": "shopify://shop_images/74.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 0,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_VCcYqA": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/womens-gameday",
+            "image": "shopify://shop_images/BANNER_TEMPLATE-13_b76c31ba-f918-490e-9cf0-78c478882cd4.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE-13_b76c31ba-f918-490e-9cf0-78c478882cd4.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_TNXWhN": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/collegiate-patch-collection",
+            "image": "shopify://shop_images/BANNER_TEMPLATE-10_d0c5b6a5-e6c3-4db8-9edc-5411d5658b0c.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE-10_d0c5b6a5-e6c3-4db8-9edc-5411d5658b0c.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_eH3T3t": {
+          "type": "image",
+          "settings": {
+            "link": "shopify://collections/rush-shop-collection",
+            "image": "shopify://shop_images/BANNER_TEMPLATE_559130aa-d073-455d-939d-ec51a8c7e4c9.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_559130aa-d073-455d-939d-ec51a8c7e4c9.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_WLYg7U": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/womens-swimwear",
+            "image": "shopify://shop_images/BANNER_TEMPLATE-24.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE-24.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_EgiUQ8": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/pre-spring",
+            "image": "shopify://shop_images/BANNER_TEMPLATE-21.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE-21.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 0,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        },
+        "image_cEG3Kh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": "shopify://collections/womens-ole-miss-gameday",
+            "image": "shopify://shop_images/BANNER_TEMPLATE_0f1c4b4e-7d65-47e2-a646-41f709219fa4.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_0f1c4b4e-7d65-47e2-a646-41f709219fa4.png",
+            "pretext": "",
+            "title": "",
+            "subtitle": "",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "text_alignment": "center",
+            "text_horizontal_position": "center",
+            "background_color": "#ffffff",
+            "background_opacity": 77,
+            "border_color": "#ffffff",
+            "border_width": 0,
+            "text_width": 40,
+            "button_1": "",
+            "button_1_link": "",
+            "button_1_style": "button--secondary",
+            "button_2": "",
+            "button_2_link": "",
+            "button_2_style": "button--secondary",
+            "mobile_image_crop": "none",
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_gQCVrJ",
+        "image_6T3MTn",
+        "image_VCcYqA",
+        "image_TNXWhN",
+        "image_eH3T3t",
+        "image_WLYg7U",
+        "image_EgiUQ8",
+        "image_cEG3Kh"
+      ],
+      "name": "Slideshow - classic",
+      "settings": {
+        "image_transition": "slide",
+        "image_slideshow_speed": 8,
+        "show_arrows": true,
+        "show_nav_buttons": true,
+        "mobile_text_below_image": true,
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_gallery_dFXP9X": {
+      "type": "index__gallery",
+      "blocks": {
+        "image_AwhKmQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-new-arrivals-1"
+          }
+        },
+        "image_VeYp6L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_b9023cbb-ee60-45f6-b03b-7b83b2726cb9.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-accessories"
+          }
+        },
+        "image_DJeFid": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_de5a4a09-6e4d-4066-81b6-ec4a2788bbda.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-polos"
+          }
+        },
+        "image_VGbngV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_67278120-12d3-4f1c-8568-d2955499bc17.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/collegiate-patch-collection"
+          }
+        },
+        "image_GhhJ99": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/2_88042030-1c4d-4dde-a770-1b41d64ec16a.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-accessories"
+          }
+        },
+        "image_XN43TA": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/5_65ae170e-515b-47b8-be74-2551e19dc1b8.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/kids-new-arrivals"
+          }
+        },
+        "image_kbLTGm": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/6_521f463a-e3a4-42cc-84c5-fab608b8d92c.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-shoes"
+          }
+        },
+        "image_cRzCJJ": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/3_021c57c0-8919-4f35-aa04-d660ad347e62.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-swimwear"
+          }
+        }
+      },
+      "block_order": [
+        "image_AwhKmQ",
+        "image_VeYp6L",
+        "image_DJeFid",
+        "image_VGbngV",
+        "image_GhhJ99",
+        "image_XN43TA",
+        "image_kbLTGm",
+        "image_cRzCJJ"
+      ],
+      "disabled": true,
+      "name": "Gallery",
+      "settings": {
+        "gallery_type": "classic",
+        "crop_images": false,
+        "images_per_row": 4,
+        "enable_lightbox": true,
+        "overlay_color": "#000000",
+        "link_color": "#ffffff",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 19,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163951041384efdc4e": {
+      "type": "index__collection-list",
+      "blocks": {
+        "6b8dc68b-933e-4c3d-9ce0-cc7d734834e3": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "womens-new-arrivals-1",
+            "custom_width_desktop": "66%",
+            "custom_width_tab": "100%",
+            "feature_url": "shopify://collections/womens-new-arrivals-1",
+            "image": "shopify://shop_images/BANNER_TEMPLATE-12_30bb31a3-18ae-45fa-a8a3-aaf77dda5227.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE-12_30bb31a3-18ae-45fa-a8a3-aaf77dda5227.png",
+            "title": "NEW ARRIVALS",
+            "subtitle": "",
+            "button_label": "",
+            "text_align": "center",
+            "align_items": "end",
+            "justify_items": "center"
+          }
+        },
+        "collection_XdcmpJ": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "feature_collection": "",
+            "custom_width_desktop": "100%",
+            "custom_width_tab": "50%",
+            "feature_url": "",
+            "title": "",
+            "subtitle": "",
+            "button_label": "View products",
+            "text_align": "center",
+            "align_items": "center",
+            "justify_items": "center"
+          }
+        },
+        "16395104131c4ebeec-1": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "womens-shoes",
+            "custom_width_desktop": "32%",
+            "custom_width_tab": "100%",
+            "feature_url": "shopify://collections/womens-shoes",
+            "image": "shopify://shop_images/Untitled_design-5.png",
+            "mobile_image": "shopify://shop_images/Untitled_design-5.png",
+            "title": "Shoes",
+            "subtitle": "",
+            "button_label": "",
+            "text_align": "center",
+            "align_items": "end",
+            "justify_items": "center"
+          }
+        },
+        "16395104131c4ebeec-2": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "mens-shirts",
+            "custom_width_desktop": "30%",
+            "custom_width_tab": "100%",
+            "feature_url": "shopify://collections/mens-shirts",
+            "image": "shopify://shop_images/Screenshot_2023-02-08_at_4.15.17_PM_2.jpg",
+            "mobile_image": "shopify://shop_images/Screenshot_2023-02-08_at_4.15.17_PM_2.jpg",
+            "title": "MEN'S",
+            "subtitle": "",
+            "button_label": "",
+            "text_align": "left",
+            "align_items": "end",
+            "justify_items": "center"
+          }
+        },
+        "16395104131c4ebeec-0": {
+          "type": "collection",
+          "settings": {
+            "feature_collection": "pants-store-exclusives",
+            "custom_width_desktop": "70%",
+            "custom_width_tab": "100%",
+            "feature_url": "shopify://collections/pants-store-exclusives",
+            "image": "shopify://shop_images/BANNER_TEMPLATE_e09aa5e1-bd88-42f9-8aa9-6429a3c722fa.png",
+            "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_e09aa5e1-bd88-42f9-8aa9-6429a3c722fa.png",
+            "title": "PANTS STORE EXCLUSIVES",
+            "subtitle": "",
+            "button_label": "",
+            "text_align": "center",
+            "align_items": "end",
+            "justify_items": "center"
+          }
+        },
+        "b5def2c6-1a94-4e80-ba59-c2e4cdb836d1": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "feature_collection": "bogg-bags",
+            "custom_width_desktop": "100%",
+            "custom_width_tab": "50%",
+            "feature_url": "shopify://collections/bogg-bags",
+            "image": "shopify://shop_images/Screenshot_2023-02-20_at_9.32.38_AM.png",
+            "mobile_image": "shopify://shop_images/Screenshot_2023-02-20_at_9.32.38_AM.png",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "text_align": "center",
+            "align_items": "center",
+            "justify_items": "center"
+          }
+        }
+      },
+      "block_order": [
+        "6b8dc68b-933e-4c3d-9ce0-cc7d734834e3",
+        "collection_XdcmpJ",
+        "16395104131c4ebeec-1",
+        "16395104131c4ebeec-2",
+        "16395104131c4ebeec-0",
+        "b5def2c6-1a94-4e80-ba59-c2e4cdb836d1"
+      ],
+      "custom_css": [
+        ".title {letter-spacing: 2px; font-family: Brandon Grotesque, sans-serif;}"
+      ],
+      "settings": {
+        "collections_per_row": 2,
+        "align_height": true,
+        "collection_height": 400,
+        "enable_zoom": false,
+        "button_style": "button--secondary",
+        "overlay_background": "rgba(0,0,0,0)",
+        "overlay_background_opacity": 70,
+        "overlay_text": "#ffffff",
+        "collection_title_below_image": false,
+        "width": "standard",
+        "show_gutter": false,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 20,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_43QJNd": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "video_W4Ytd9": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "aspect_ratio": "16:9",
+            "autoplay": false,
+            "autoloop": true,
+            "mute_video": false,
+            "controls": true,
+            "iframe_video": "https://www.youtube.com/watch?v=8NxS0vrPcsA",
+            "html5_video": "",
+            "pretext": "",
+            "title": "Featured video",
+            "subtitle": "Embed a Youtube or Vimeo video.",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "horizontal_text_position": "center",
+            "vertical_text_position": "center",
+            "text_align": "center",
+            "button_label": "Play video",
+            "button_style": "button--secondary",
+            "overlay_style": "text_only",
+            "video_overlay_color": "#ffffff",
+            "gradient": "rgba(0,0,0,0)",
+            "gradient_rotation": 180,
+            "background_opacity": 77,
+            "text_width": 70,
+            "mobile_text_below_video": true,
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)",
+            "width": "wide"
+          }
+        },
+        "text_4epkyP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "Pants Store ExclusiveS",
+            "heading_size": "regular",
+            "text": "<p>Our Pants Store Exclusives are designed with your everyday style in mind — cute, comfortable, and trending. Each piece is easy to mix and match so you can create the perfect OOTD! Whether you’re heading to class, running errands, or lounging, these exclusive looks keep you in style!</p>",
+            "button_label": "CLICK TO SHOP",
+            "link": "shopify://collections/pants-store-exclusives",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "center",
+            "vertical_position": "center"
+          }
+        },
+        "image_bitpcV": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/DSC09733.jpg",
+            "image_crop": "none",
+            "image_link": "shopify://collections/pants-store-exclusives"
+          }
+        }
+      },
+      "block_order": [
+        "video_W4Ytd9",
+        "text_4epkyP",
+        "image_bitpcV"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 9,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 5,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_gallery_7jpam3": {
+      "type": "index__gallery",
+      "blocks": {
+        "image_Ldn3Jh": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/8.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-new-arrivals-1"
+          }
+        },
+        "image_x9niCN": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/1_de5a4a09-6e4d-4066-81b6-ec4a2788bbda.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-polos"
+          }
+        },
+        "image_DMwzky": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/7_b9023cbb-ee60-45f6-b03b-7b83b2726cb9.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-accessories"
+          }
+        },
+        "image_Mi98hr": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/4_67278120-12d3-4f1c-8568-d2955499bc17.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/collegiate-patch-collection"
+          }
+        },
+        "image_BxyCV3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_88042030-1c4d-4dde-a770-1b41d64ec16a.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-accessories"
+          }
+        },
+        "image_AAr4qG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_65ae170e-515b-47b8-be74-2551e19dc1b8.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/kids-new-arrivals"
+          }
+        },
+        "image_ndqFWp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_521f463a-e3a4-42cc-84c5-fab608b8d92c.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-shoes"
+          }
+        },
+        "image_KkicmV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_021c57c0-8919-4f35-aa04-d660ad347e62.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/mens-swimwear"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ldn3Jh",
+        "image_x9niCN",
+        "image_DMwzky",
+        "image_Mi98hr",
+        "image_BxyCV3",
+        "image_AAr4qG",
+        "image_ndqFWp",
+        "image_KkicmV"
+      ],
+      "disabled": true,
+      "name": "Gallery",
+      "settings": {
+        "gallery_type": "classic",
+        "crop_images": false,
+        "images_per_row": 4,
+        "enable_lightbox": true,
+        "overlay_color": "#000000",
+        "link_color": "#ffffff",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 19,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_overlay_hGd8Ri": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "shopify://collections/rush-shop-collection",
+        "image": "shopify://shop_images/BANNER_TEMPLATE_2_cb550345-7357-47cf-bd48-476ce3f00dcf.png",
+        "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_2_cb550345-7357-47cf-bd48-476ce3f00dcf.png",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "pretext_font": "pinyon_script_n4",
+        "heading_font": "pinyon_script_n4",
+        "subheading_font": "pinyon_script_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 21,
+        "padding_bottom_m": 22,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_XNAFcG": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_UVNmKC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6cc40651-ee67-4e5d-b049-3566346469d3.png",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "video_WLEjRA": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "aspect_ratio": "16:9",
+            "autoplay": false,
+            "autoloop": true,
+            "mute_video": false,
+            "controls": true,
+            "iframe_video": "https://www.youtube.com/watch?v=8NxS0vrPcsA",
+            "html5_video": "",
+            "pretext": "",
+            "title": "Featured video",
+            "subtitle": "Embed a Youtube or Vimeo video.",
+            "pretext_color": "#000000",
+            "heading_color": "#000000",
+            "subheading_color": "#000000",
+            "horizontal_text_position": "center",
+            "vertical_text_position": "center",
+            "text_align": "center",
+            "button_label": "Play video",
+            "button_style": "button--secondary",
+            "overlay_style": "text_only",
+            "video_overlay_color": "#ffffff",
+            "gradient": "rgba(0,0,0,0)",
+            "gradient_rotation": 180,
+            "background_opacity": 77,
+            "text_width": 70,
+            "mobile_text_below_video": true,
+            "pretext_color_mobile": "rgba(0,0,0,0)",
+            "heading_color_mobile": "rgba(0,0,0,0)",
+            "subheading_color_mobile": "rgba(0,0,0,0)",
+            "width": "wide"
+          }
+        },
+        "text_dUTE6m": {
+          "type": "text",
+          "settings": {
+            "title": "Best Seller Restocks",
+            "heading_size": "regular",
+            "text": "<p>Back by popular demand. Our favorite pieces are back in stock + new styles and colors! Don't miss your chance to grab them before they're gone (again)! </p>",
+            "button_label": "Shop the collection",
+            "link": "shopify://collections/best-seller-restocks",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "center",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_UVNmKC",
+        "video_WLEjRA",
+        "text_dUTE6m"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_overlay_jRUjGy": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "shopify://collections/best-guest-dress",
+        "image": "shopify://shop_images/BANNER_TEMPLATE_2_d17bc7a2-1560-4f74-8beb-994ba8c5c644.png",
+        "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_2_d17bc7a2-1560-4f74-8beb-994ba8c5c644.png",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "pretext_font": "pinyon_script_n4",
+        "heading_font": "pinyon_script_n4",
+        "subheading_font": "pinyon_script_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 21,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165851256019ab3a44": {
+      "type": "index__rich-text",
+      "disabled": true,
+      "settings": {
+        "title": "New Arrivals",
+        "heading_font": "open_sans_n4",
+        "heading_font_custom": "Brandon Grotesque Bold",
+        "heading_color": "#1a1a1a",
+        "heading_alignment": "center",
+        "heading_size": 30,
+        "text": "",
+        "text_font": "open_sans_n4",
+        "text_font_custom": "",
+        "text_color": "rgba(0,0,0,0)",
+        "text_alignment": "left",
+        "text_size": 14,
+        "columns": 1,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--primary",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 180,
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "163951053405a611cd": {
+      "type": "index__featured-collection",
+      "settings": {
+        "title": "Customer Favorites",
+        "collection": "pants-store-exclusives",
+        "products_per": 4,
+        "mobile_products_per_row": "1",
+        "products_limit": 50,
+        "align_height": true,
+        "collection_height": 480,
+        "collection_style": "slider",
+        "width": "standard",
+        "show_gutter": true,
+        "button_label": "",
+        "button_link": "",
+        "button_alignment": "center",
+        "button_style": "button--link-style",
+        "padding_top": 28,
+        "padding_bottom": 12,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 27,
+        "padding_bottom_m": 5,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#ffffff",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_ghc7az": {
+      "type": "index__heading",
+      "disabled": true,
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "HOT ITEM OF THE WEEK",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "165851281699604f9f": {
+      "type": "index__featured-product",
+      "blocks": {
+        "1658512816b9778085-0": {
+          "type": "title",
+          "settings": {}
+        },
+        "1658512816b9778085-1": {
+          "type": "price",
+          "settings": {
+            "display_savings": true
+          }
+        },
+        "1658512816b9778085-3": {
+          "type": "form",
+          "settings": {
+            "show_payment_button": true
+          }
+        },
+        "0f43ac85-0f41-496f-8194-2508bf89b6fa": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "1658512816b9778085-0",
+        "1658512816b9778085-1",
+        "1658512816b9778085-3",
+        "0f43ac85-0f41-496f-8194-2508bf89b6fa"
+      ],
+      "disabled": true,
+      "settings": {
+        "featured_product": "scarlet-roll-tide-patch-drop-shoulder-sweatshirt",
+        "product_images_position": "left",
+        "set_product_height": true,
+        "product_height": 600,
+        "video_looping": false,
+        "gallery_arrows": false,
+        "enable_zoom": false,
+        "enable_product_lightbox": false,
+        "slideshow_speed": 0,
+        "slideshow_transition": "slide",
+        "display_thumbnails": false,
+        "thumbnail_position": "bottom-thumbnails",
+        "enable_thumbnail_slider": false,
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_gallery_rDVRBE": {
+      "type": "index__gallery",
+      "blocks": {
+        "image_FUzCBz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/NEW_BALANCE.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/jewelry"
+          }
+        },
+        "image_fTrrRi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_3823ec92-cfda-4446-b390-3021aef06c11.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-dresses-rompers"
+          }
+        },
+        "image_XJhh9d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_c6d7ccfb-dcb0-43e9-bba2-09b39580970c.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-bottoms"
+          }
+        },
+        "image_W7XnLE": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/3_9a994f12-0f89-45d1-bc6f-e438e606ebda.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-tops"
+          }
+        },
+        "image_4aKkLT": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_9c6de407-b91b-402c-839b-29ac0cc32f84.png",
+            "title": "",
+            "subtitle": "",
+            "link": "shopify://collections/womens-sets"
+          }
+        }
+      },
+      "block_order": [
+        "image_FUzCBz",
+        "image_fTrrRi",
+        "image_XJhh9d",
+        "image_W7XnLE",
+        "image_4aKkLT"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "gallery_type": "classic",
+        "crop_images": false,
+        "images_per_row": 5,
+        "enable_lightbox": true,
+        "overlay_color": "#000000",
+        "link_color": "#ffffff",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 9,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1658933496cbbc1870": {
+      "type": "index__heading",
+      "settings": {
+        "preheading": "",
+        "title": "Shop the Gram",
+        "subheading": "",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "rgba(0,0,0,0)",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "1658513924d60b6b10": {
+      "type": "apps",
+      "blocks": {
+        "ee7ec1f6-66d8-4f5a-a500-d35b643e7982": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "ee7ec1f6-66d8-4f5a-a500-d35b643e7982"
+      ],
+      "settings": {
+        "width": "standard",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_overlay_At6dHm": {
+      "type": "index__image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "link": "https://apps.apple.com/us/app/pants-store-vip/id1405231886",
+        "image": "shopify://shop_images/BANNER_TEMPLATE_1_7af2a3c6-78ba-4e57-b6ca-4efa6b719d13.png",
+        "mobile_image": "shopify://shop_images/BANNER_TEMPLATE_1_7af2a3c6-78ba-4e57-b6ca-4efa6b719d13.png",
+        "pretext": "",
+        "title": "",
+        "subtitle": "",
+        "pretext_color": "#000000",
+        "heading_color": "#000000",
+        "subheading_color": "#000000",
+        "pretext_font": "pinyon_script_n4",
+        "heading_font": "pinyon_script_n4",
+        "subheading_font": "pinyon_script_n4",
+        "text_alignment": "center",
+        "text_horizontal_position": "center",
+        "text_vertical_position": "middle",
+        "background_color": "#ffffff",
+        "background_opacity": 77,
+        "border_color": "#ffffff",
+        "border_width": 0,
+        "text_width": 40,
+        "button_1": "",
+        "button_1_link": "",
+        "button_1_style": "button--secondary",
+        "button_2": "",
+        "button_2_link": "",
+        "button_2_style": "button--secondary",
+        "mobile_image_crop": "none",
+        "mobile_text_below_image": true,
+        "pretext_color_mobile": "rgba(0,0,0,0)",
+        "heading_color_mobile": "rgba(0,0,0,0)",
+        "subheading_color_mobile": "rgba(0,0,0,0)",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "index_image_with_text_overlay_F3tieJ",
+    "index_slideshow_classic_jHjzFJ",
+    "index_gallery_dFXP9X",
+    "163951041384efdc4e",
+    "index_image_with_text_43QJNd",
+    "index_gallery_7jpam3",
+    "index_image_with_text_overlay_hGd8Ri",
+    "index_image_with_text_XNAFcG",
+    "index_image_with_text_overlay_jRUjGy",
+    "165851256019ab3a44",
+    "163951053405a611cd",
+    "index_heading_ghc7az",
+    "165851281699604f9f",
+    "index_gallery_rDVRBE",
+    "1658933496cbbc1870",
+    "1658513924d60b6b10",
+    "index_image_with_text_overlay_At6dHm"
+  ]
+}

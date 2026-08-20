@@ -1,0 +1,346 @@
+.footer__menu.is-justify-space-between  h2 {
+    text-transform: uppercase;
+    letter-spacing: .69px;
+    line-height: 24px;
+    font-family: Brandon Grotesque Bold;
+    margin-bottom: 15px;
+}
+#shopify-section-f33f3fdd-2f4a-4237-9a42-fc3a4639ab28 h2 {
+    text-transform: uppercase;
+    letter-spacing: .69px;
+    line-height: 24px;
+    font-family: Brandon Grotesque Bold;
+    margin-bottom: 15px;
+}
+focused.textarea, .is-focused.button, .pagination-previous:active, .pagination-next:active, 
+.pagination-link:active, .pagination-ellipsis:active, .file-cta:active, .file-name:active, 
+.select select:active, .input:active, .textarea:active, .button:active, .is-active.pagination-previous, .is-active.pagination-next, 
+.is-active.pagination-link, .is-active.pagination-ellipsis, .is-active.file-cta, .is-active.file-name, .select select.is-active, .is-active.input, 
+.is-active.textarea, .is-active.button {
+    outline: solid black 2px;
+}
+
+product-wrap a:focus{
+  outline: 2px solid black !important;
+  outline-offset: -3px !important;
+}
+
+.product-recommendations .product-wrap a{
+  display:block;
+}
+.ajax-cart a:hover {
+    color: #3E862E !important;
+}
+
+button:focus {
+  outline: 2px solid black !important;
+}
+
+h2.product_name.title {
+  color: #1a1a1a;
+    font-family: Brandon Grotesque Medium;
+    font-size: 29px;
+    font-weight: 500;
+    letter-spacing: .75px;
+    line-height: 41px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+}
+.share-heading{
+  font-family: Brandon Grotesque Bold,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  text-transform: uppercase;
+  line-height: 1.5;
+  color: #1a1a1a;
+  display: block;
+  letter-spacing: 0px;
+  text-rendering: optimizeLegibility;
+}
+
+.header__links-list .header__links-icon {
+    display: flex;
+    pointer-events: none;
+    margin-top: 3px;
+    margin-left: 8px;
+    margin-left: var(--spacing-2);
+}
+.navbar-link.header__link span svg {
+    display: flex;
+    width: 10px !important;
+    height: 10px !important;
+}
+.boost-pfs-filter-option.boost-pfs-filter-option-collapsed .boost-pfs-filter-option-content.toggled{
+	display: none;
+  }
+  .boost-pfs-filter-option{
+  	display: block;
+  }
+.cart-page__heading{
+  font-family: Brandon Grotesque Bold,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #1a1a1a;
+    display: block;
+    letter-spacing: 0px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h2.ajax-cart__cart-title {
+    color: #000 !important;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 37px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Brandon Grotesque Regular,sans-serif;
+}
+.header__link:hover{
+    color: #3E862F !important;
+    fill: #3E862F !important;
+}
+#shopify-section-template--16377809469622__163951041384efdc4e .collection-info__caption span {
+  
+}
+.collection-info__caption-wrapper.is-justify-start .title{
+  background-color: rgba(0,0,0,0.5);
+  padding:0 5px;
+}
+.mega-menu a:hover {
+    color: #3E862F !important;
+}
+ .skip-link{
+                position:absolute;
+                left:-10000px;
+                top:auto;
+                overflow:hidden;
+                padding:4px;
+                z-index:999999;
+                color:#000;
+                background: #013e27;
+            }
+
+ .skip-link:focus{
+                position:absolute;
+                left:2px;
+                top:4px;
+                width:auto;
+                height:auto;
+                overflow:hidden;
+                padding:4px;
+                z-index:999999;
+                color:#fff;
+                border-color: #000;
+                transition:transform .3s
+            }
+
+.boost-pfs-filter-option-item-list.boost-pfs-filter-option-item-list-multiple-list li .boost-pfs-check-box{
+  border: 1px solid #76767E !important;
+}
+
+.mega-menu__section.is-active {
+  display:block !important;
+}
+.dropdown-click--false .navbar-item.has-dropdown:hover .navbar-dropdown {
+  display:block !important;
+}
+
+/* ADA: keyboard equivalent of :hover for primary navigation submenus and
+   mega menus. When a top-level nav link receives keyboard focus,
+   :focus-within activates on the parent .navbar-item and reveals the
+   submenu so users can tab through its links. */
+.dropdown-click--false .navbar-item.has-dropdown:focus-within .navbar-dropdown,
+.dropdown-click--false .navbar-item.has-mega-menu:focus-within .navbar-dropdown {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Mega menu requires revealing both the section wrapper AND the inner
+   .mega-menu element (default display: none in styles.css.liquid:15258
+   until JS adds .is-active). */
+.navbar-item.has-mega-menu:focus-within .mega-menu__section,
+.navbar-item.has-mega-menu:focus-within .mega-menu {
+  display: block !important;
+}
+
+.product-thumbnail__title.home-product-title{
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: .49px;
+  line-height: 27px;
+  font-family: Brandon Grotesque Medium;
+  text-transform: uppercase;
+  margin-bottom: 5px !important;
+  display: block;
+}
+.social-share-buttons ul {
+  display:flex !important;
+}
+
+.header__menu-items ul{
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sr-only{
+  position:absolute;
+ left: 9999px;
+}
+.ajax-cart__empty-cart-message a{
+  display: none !important;
+}
+div#theme-ajax-cart.is-drawer:not(.is-visible){
+  display: none !important;
+}
+
+div#theme-ajax-cart{
+  z-index: 9999999;
+}
+
+.ajax-cart__form  button.close{
+  top: -2px;
+}
+
+a.collection-info__caption:focus-visible {
+    border: 3px solid black;
+}
+
+a.banner--full-link:focus-visible {
+    border: 3px solid black;
+}
+
+@media (max-width:991px){
+  div#theme-ajax-cart .ajax-cart__cart-title{
+    padding: 6px;
+    font-size: 18px;
+  }
+  div#theme-ajax-cart form.ajax-cart__form{
+    padding: 16px;
+  } 
+  div#theme-ajax-cart .ajax-cart__product-title a{    
+    font-size: 12px;
+    line-height: 10px;
+  } 
+  div#theme-ajax-cart .ajax-cart__product-title{
+    line-height: 1;
+  }
+  div#theme-ajax-cart .ajax-cart__close-icon{
+    top: 8px
+  }
+  div#theme-ajax-cart form.ajax-cart__form .ajax-cart__details-wrapper{
+    bottom: 12px;
+  }
+  div#theme-ajax-cart form.ajax-cart__form .ajax-cart__details-wrapper  .ajax-cart__subtotal span{    
+    font-size: 16px;
+  }
+  div#theme-ajax-cart .ajax-cart__list{
+    padding-bottom: 25px;
+  }
+}
+
+
+@media (max-width:480px){
+  div#theme-ajax-cart .ajax-cart__cart-title{
+    padding: 5px;
+    font-size: 16px;
+    line-height: 1;
+  }
+  div#theme-ajax-cart form.ajax-cart__form{
+    padding: 12px;
+  }
+  div#theme-ajax-cart .ajax-cart__close-icon{
+    top: 0px
+  }
+  div#theme-ajax-cart form.ajax-cart__form .ajax-cart__details-wrapper .ajax-cart__subtotal span{    
+    font-size: 14px;
+  }
+  div#theme-ajax-cart form.ajax-cart__form .ajax-cart__details-wrapper .ajax-cart__details-row{
+    padding-top: 2px;    
+  }
+  div#theme-ajax-cart form.ajax-cart__form .ajax-cart__details-wrapper button.ajax-cart__button.button--add-to-cart.button{
+    padding: 4px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .collection-info__caption .title {
+    font-size: 17px!important;
+  }
+ .list-collection__thumbnail .product-wrap {
+   max-height: 250px !important;
+  }
+  .index  .product-wrap.product-wrap-section .image-element__wrap img{
+    object-fit: cover;
+     height: 250px !important;
+  }
+  .product-wrap a.collection-info__caption{
+     object-fit: cover;
+     height: 250px !important;
+  }
+}
+
+/* ADA: keep CAPTCHA attribution badges (reCAPTCHA / hCaptcha) permanently
+   visible. Both badges default to a collapsed-on-idle state where the
+   "Privacy" and "Terms" anchor links are hidden until hover, which fails
+   WCAG 2.1.1 (Keyboard) and 2.4.4 (Link Purpose). Forcing the expanded
+   state keeps the attribution links perceivable without pointer interaction
+   and remains compliant with Google / hCaptcha branding requirements. */
+.grecaptcha-badge {
+  right: 0 !important;
+  width: 256px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.grecaptcha-badge a,
+.grecaptcha-badge a:link,
+.grecaptcha-badge a:visited {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+#h-captcha-badge,
+.h-captcha-badge,
+.hcaptcha-badge {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+#h-captcha-badge a,
+.h-captcha-badge a,
+.hcaptcha-badge a {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+
+/* Layout: product-thumbnail.liquid uses two separate anchors (image link
+   and caption link) instead of one wrapping <a>. They need display: block
+   so the product card retains its block layout. Without this, the inline
+   anchors collapse and break grid and slider layouts. */
+.product-thumbnail__image-link,
+.product-thumbnail__caption-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ADA: visible reveal of the product card overlay when keyboard focus
+   enters the card. Note: full keyboard reach to the Quick Shop button
+   inside the overlay is constrained by the home-page Flickity slider,
+   which sets tabindex="-1" on non-active cells. This rule still provides
+   useful focus feedback (the overlay appears) on cards rendered outside
+   the slider. Mirrors the existing :hover rule at styles.css.liquid:11748. */
+.product-wrap:focus-within .thumbnail-overlay__container,
+.product-wrap:focus-within .thumbnail-overlay__container .quick-shop__buttons,
+.product-wrap:focus-within .thumbnail-overlay__container .quick-shop__info {
+  display: flex !important;
+}

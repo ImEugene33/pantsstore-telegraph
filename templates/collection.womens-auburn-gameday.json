@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_9da7af22-7f5e-4078-91d1-e1e897e7e4da.png",
+        "image_darken": false,
+        "banner_height": "medium",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection-template-boost-pfs-filter",
+      "custom_css": [],
+      "settings": {}
+    },
+    "index_divider_dKJqxW": {
+      "type": "index__divider",
+      "name": "Divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 3,
+        "divider_color": "#71b954",
+        "alignment": "center",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_VHCTdD": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Show Your Auburn Spirit in Style",
+        "subheading": "<p>Get game day ready with the sweetest Auburn looks from The Pants Store. We’ve got all the orange and navy you love, plus trendy little accents that make your outfit pop. From tailgates to touchdown celebrations, you’ll be showing off your Tiger pride in the cutest way possible.</p><p>Think breezy dresses, cozy crewnecks, and fun accessories that take your look from casual to <em>so gameday chic.</em> No matter if you’re walking into the stadium or hanging with friends, our Auburn collection keeps you comfy, stylish, and totally game day ready.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 20,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_RaDNWp": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_43TCa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/auburn_dress.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_JWBypN": {
+          "type": "text",
+          "settings": {
+            "title": "Dresses and Skirts for Every Occasion",
+            "heading_size": "regular",
+            "text": "<p>For a more feminine take on your Auburn gameday look, check out our selection of dresses and skirts. No matter if you prefer a cute game day dress or a flirty skirt, we have plenty of options that combine style and comfort, making them perfect for all-day wear at Auburn football games. Our dresses come in a variety of colors and offer flattering silhouettes that are ideal for cheering on the Tigers in style. For game day or any occasion, these pieces are designed to transition seamlessly from tailgate to victory celebration.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_43TCa3",
+        "text_JWBypN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_dPQJ3P": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "text_PrpLAk": {
+          "type": "text",
+          "settings": {
+            "title": "Perfect Bottoms for Game Day",
+            "heading_size": "regular",
+            "text": "<p>No Auburn gameday outfit is complete without the right pair of bottoms, and we have a variety of styles to match every look. Whether you prefer a relaxed fit or a more tailored look, our collection of bottoms includes comfy shorts for warmer game days and stylish bottoms for cooler football season weather. With options like high-waisted shorts/skorts or midi skirts you’ll have no problem finding the ideal pair to match your Auburn game day top.</p><p>For a versatile, all-day wear option, our gameday bottoms offer both style and comfort. Pair them with your favorite top for a cohesive outfit that works for any occasion, whether you're enjoying a tailgate or heading to the stadium. We make it easy to combine comfort and school spirit, so you can enjoy every Auburn football game without compromising on style.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "image_WFxX6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/auburn_bottom.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PrpLAk",
+        "image_WFxX6a"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#ffffff",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_4kF8wW": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_k9hj8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/auburn_top.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_LWK9zh": {
+          "type": "text",
+          "settings": {
+            "title": "Tops that Make a Statement",
+            "heading_size": "regular",
+            "text": "<p>At The Pants Store, we offer a wide variety of gameday tops that cater to every style and comfort level. Our Auburn tops include everything frombasic tanks and tops to sleek crewneck sweaters, all designed to complement your team spirit. From rooting for Auburn football in the stands to watching the game with friends, our tops provide the perfect balance of fashion and functionality. With bold Auburn graphics and subtle school accents, you’ll find the ideal outfit for any game day occasion.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_k9hj8N",
+        "text_LWK9zh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_dbd38q": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Choose The Pants Store for Your Gameday Outfits?",
+        "subheading": "<p>The Pants Store offers more than just trendy Auburn gameday outfits. We focus on providing high-quality, comfortable, and stylish clothing that suits every fan’s needs. With a wide variety of Auburn football gear, from tops and bottoms to accessories and dresses, we make it easy to find the perfect outfit for any occasion during football season. </p><p>What sets The Pants Store apart is our commitment to customer satisfaction. With free shipping on orders over $100 and hassle-free returns, shopping with us is as easy as rooting for your alma mater. Our collection includes pieces that will keep you comfortable and stylish throughout Auburn football games, and our curated selection of accessories and outfits ensures you’ll have the perfect gameday attire for every game this football season.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "index_divider_dKJqxW",
+    "index_heading_VHCTdD",
+    "index_image_with_text_RaDNWp",
+    "index_image_with_text_dPQJ3P",
+    "index_image_with_text_4kF8wW",
+    "index_heading_dbd38q"
+  ]
+}

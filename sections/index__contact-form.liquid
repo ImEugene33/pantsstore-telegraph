@@ -1,0 +1,1238 @@
+{% comment %}
+** Contact form **
+{% endcomment %}
+
+{% assign id = section.id %}
+{% assign width = section.settings.width %}
+{% comment %}General{% endcomment %}
+{% assign animation = section.settings.animation | default: 'none' %}
+{% comment %} Advanced {% endcomment %}
+{% assign css_class = section.settings.css_class %}
+{% assign custom_css = section.settings.custom_css %}
+{% comment %} Content {% endcomment %}
+{% assign title = section.settings.title %}
+{% assign content_text = section.settings.content_text %}
+{% assign social_enable = section.settings.social_enable %}
+{% assign content_image = section.settings.content_image %}
+{% assign form_position = section.settings.form_position %}
+{% assign text_alignment = section.settings.text_alignment %}
+
+{% if title != blank or content_text != blank or content_image != nil or social_enable %}
+  {% assign contact_content = true %}
+{% else %}
+  {% assign contact_content = false %}
+{% endif %}
+{% comment %}Text{% endcomment %}
+{% assign text_color = section.settings.text_color %}
+{% comment %}Background{% endcomment %}
+{% assign background = section.settings.background %}
+
+{% comment %} Is the color set to transparent? {% endcomment %}
+{% assign background_alpha = background | color_extract: 'alpha' %}
+{% assign text_alpha = text_color | color_extract: 'alpha' %}
+
+{% if settings.form_button_style contains 'primary' %}
+  {% assign field_input_size = settings.button_primary_padding %}
+  {% assign field_input_style = 'primary-btn-style' %}
+{% elsif settings.form_button_style contains 'secondary' %}
+  {% assign field_input_size = settings.button_secondary_padding %}
+  {% assign field_input_style = 'secondary-btn-style' %}
+{% else %}
+  {% assign field_input_size = settings.button_link_padding %}
+{% endif %}
+
+{% comment %} Section specific CSS {% endcomment %}
+{% capture section_css -%}
+
+  .contact-form__form {
+    color: {% if text_alpha != 0 %}{{ text_color }}{% else %}{{ settings.regular_color }}{% endif %};
+  }
+
+  .contact-form__form {
+    background-color: {% if background_alpha != 0 %}{{ background }}{% endif %};
+  }
+{%- endcapture -%}
+
+{% style %}
+  #shopify-section-{{ id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-left: {{ section.settings.padding_left }}px;
+    padding-right: {{ section.settings.padding_right }}px;
+	background-color: {{ section.settings.section_bg }};
+	margin-top: {{ section.settings.margin_top }}px;
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+    {% if width == 'wide' %}
+      width: 100%;
+    {% endif %}
+  }
+  @media screen and (max-width:798px){
+    #shopify-section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top_m }}px;
+      padding-bottom: {{ section.settings.padding_bottom_m }}px;
+      padding-left:{{ section.settings.padding_left_m }}px;
+      padding-right:{{ section.settings.padding_right_m }}px;
+      margin-top: {{ section.settings.margin_top_m }}px;
+      margin-bottom: {{ section.settings.margin_bottom_m }}px;
+    }
+  }
+  {%
+    render 'css-loop',
+    css: section_css,
+    id: id
+  %}
+
+  {%
+    render 'css-loop',
+    css: custom_css,
+    id: id
+  %}
+{% endstyle %}
+
+<section class="section
+        {{ css_class }}
+        is-width-{{ width }}"
+        {% if animation != "none" %}
+          data-scroll-class="{{ animation }}"
+        {% endif %}>
+
+  <div class="container
+              content
+              contact-form
+              {% if contact_content == true %}
+              contact-form--{{ form_position }}
+              {% else %}
+              contact-form--center
+              {% endif %}
+              ">
+
+
+
+    {% if section.blocks.size > 0 and type != "block" %}
+      <div class="one-half medium-down--one-whole column">
+        <div class="contact-form__form">
+          <div class="form__success-message"></div>
+          <div class="one-whole column contact-form__form-errors">
+            <p class="form__error"></p>
+          </div>
+
+          {% form 'contact', class: 'custom-contact-form' %}
+            {% if form.posted_successfully? %}
+              <div class="custom-contact-form__success">
+                <p>{{ 'contact.form.post_success' | t }}</p>
+              </div>
+            {% endif %}
+
+            {% if form.errors %}
+              <div class="custom-contact-form__errors">
+                <p>{{ 'general.forms.post_error' | t }}</p>
+
+                {%- assign message = 'contact.form.message' | t -%}
+
+                {% for field in form.errors %}
+                  {% if field == 'form' %}
+                    <p>{{ form.errors.messages[field] }}</p>
+                  {% else %}
+                    {%- assign field_name = field | replace: 'body', message -%}
+                    <p>{{ 'general.forms.post_field_error_html' | t: field: field_name, error: form.errors.messages[field] }}</p>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <div class="custom-contact-form__blocks">
+              {%- assign used_labels = '' -%}
+
+              {% for block in section.blocks %}
+                {%- assign suffix = '' -%}
+                {% if used_labels contains block.settings.label %}
+                  {% assign suffix = '-' | append: forloop.index %}
+                {% endif %}
+                {%- assign used_labels = used_labels | join: '|' | append: '|' | append: block.settings.label | split: '|' -%}
+
+                {%- assign required_highlight = '' -%}
+                {% if block.settings.required %}
+                  {% capture required_highlight %}
+                    <span class="required">*</span>
+                  {% endcapture %}
+                {% endif %}
+
+                <div class="custom-contact-form__block custom-contact-form__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                  {% if block.type == 'textfield' %}
+                    <label
+                      class="label{% if settings.use_placeholders %} is-sr-only{% endif %}"
+                      for="textfield{{ suffix }}"
+                    >
+                      {{ block.settings.label | escape }} {{ required_highlight }}
+                    </label>
+                    <input
+                      id="textfield{{ suffix }}"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="text"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label | escape }}{% if block.settings.required %}*{% endif %}"
+                      {% endif %}
+                      name="contact[{{ block.settings.label | escape }}{{ suffix }}]"
+                      {% if block.settings.required %}
+                        required="required"
+                      {% endif %}
+                    >
+                    {% elsif block.type == 'date' %}
+                    <label style="display:block; text-align:left;"
+                      class="label"
+                      for="date{{ suffix }}"
+                    >
+                      {{ block.settings.label | escape }} {{ required_highlight }}
+                    </label>
+                    <input
+                      id="date{{ suffix }}"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="date"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label | escape }}{% if block.settings.required %}*{% endif %}"
+                      {% endif %}
+                      name="contact[{{ block.settings.label | escape }}{{ suffix }}]"
+                      {% if block.settings.required %}
+                        required="required"
+                      {% endif %}
+                    >
+                  {% elsif block.type == 'multiple_fields' %}
+                    <label for ="multiple_field" style="display:block; text-align:left;">
+                    {{ block.settings.label }}
+                    </label>
+                          <input style="margin-bottom:20px;"
+                      id="multiple_field{{ suffix }}"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="text"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label_1 | escape }}{% if block.settings.required_1 %}*{% endif %}"
+                      {% endif %}
+                      name="contact[{{ block.settings.label_1 | escape }}{{ suffix }}]"
+                      {% if block.settings.required_1 %}
+                        required="required"
+                      {% endif %}
+                    >
+                          <input style="margin-bottom:20px;"
+                      id="multiple_field{{ suffix }}"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="text"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label_2 | escape }}{% if block.settings.required_2 %}*{% endif %}"
+                      {% endif %}
+                      name="contact[{{ block.settings.label_2 | escape }}{{ suffix }}]"
+                      {% if block.settings.required_2 %}
+                        required="required"
+                      {% endif %}
+                    >
+                          <input style="margin-bottom:20px;"
+                      id="multiple_field{{ suffix }}"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="text"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label_3| escape }}{% if block.settings.required_3 %}*{% endif %}"
+                      {% endif %}
+                      name="contact[{{ block.settings.label_3| escape }}{{ suffix }}]"
+                      {% if block.settings.required_3 %}
+                        required="required"
+                      {% endif %}
+                    >
+                  {% elsif block.type == 'email' %}
+                    <label
+                      class="label{% if settings.use_placeholders %} is-sr-only{% endif %}"
+                      for="email"
+                    >
+                      {{ block.settings.label | escape }} <span class="required">*</span>
+                    </label>
+                    <input
+                      id="email"
+                      class="input is-{{ field_input_style }} is-{{ field_input_size }}"
+                      type="email"
+                      {% if settings.use_placeholders %}
+                        placeholder="{{ block.settings.label | escape }}*"
+                      {% endif %}
+                      name="contact[email]"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                      required="required"
+                    >
+
+                  {% elsif block.type == 'textarea' %}
+                    <label
+                      class="label{% if settings.use_placeholders %} is-sr-only{% endif %}"
+                      for="textarea{{ suffix }}"
+                    >
+                      {{ block.settings.label | escape }} {{ required_highlight }}
+                    </label>
+                    <textarea id="textarea{{ suffix }}" class="textarea is-{{ field_input_style }} is-{{ field_input_size }}" {% if settings.use_placeholders %} placeholder="{{ block.settings.label | escape }}{% if block.settings.required %}*{% endif %}" {% endif %} name="contact[{{ block.settings.label | escape }}{{ suffix }}]" {% if block.settings.required %} required="required" {% endif %}></textarea>
+
+                  {% elsif block.type == 'checkbox' %}
+                    <label class="label">{{ block.settings.label | escape }} {{ required_highlight }}</label>
+                    <ul {% if block.settings.required %}data-is-required{% endif %}>
+                      {% for index in (1..10) %}
+                        {% capture option %}options_{{index}}{% endcapture %}
+                        {% if block.settings[option] != blank %}
+                          <li>
+                            <input
+                              id="checkbox[option{{ index }}]-{{ suffix }}"
+                              class="checkbox"
+                              type="checkbox"
+                              name="contact[{{ block.settings.label | escape }} {{ index }} {{ suffix }}]"
+                              value="{{ block.settings[option] }}"
+                            >
+                            <label for="checkbox[option{{ index }}]-{{ suffix }}">{{ block.settings[option] }}</label>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+
+                  {% elsif block.type == 'radio' %}
+                    <label style="display:block !important; text-align:left;"class="label">{{ block.settings.label | escape }} {{ required_highlight }}</label>
+                    <ul>
+                      {% for index in (1..10) %}
+                        {% capture option %}options_{{index}}{% endcapture %}
+                        {% if block.settings[option] != blank %}
+                          <li>
+                            <input
+                              id="radio[option{{ index }}]-{{ suffix }}"
+                              class="radio"
+                              type="radio"
+                              name="contact[{{ block.settings.label | escape }}{{ suffix }}]"
+                              value="{{ block.settings[option] }}"
+                              {% if forloop.first %}
+                                checked
+                              {% endif %}
+                            >
+                            <label for="radio[option{{ index }}]-{{ suffix }}">{{ block.settings[option] }}</label>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+
+                  {% elsif block.type == 'dropdown' %}
+                    <label
+                      class="label{% if settings.use_placeholders %} is-sr-only{% endif %}"
+                      for="select{{ suffix }}"
+                    >
+                      {{ block.settings.label | escape }} {{ required_highlight }}
+                    </label>
+                    <span class="select is-wide is-{{ field_input_style }} is-{{ field_input_size }}">
+                      <select
+                        id="select{{ suffix }}"
+                        name="contact[{{ block.settings.label | escape }}{{ suffix }}]"
+                        {% if block.settings.required %}
+                          required="required"
+                        {% endif %}
+                      >
+                        {% if settings.use_placeholders %}
+                          <option value="" selected disabled>{{ block.settings.label | escape }} {{ required_highlight }}</option>
+                        {% endif %}
+                        {% for index in (0..10) %}
+                          {% capture option %}options_{{index}}{% endcapture %}
+                          {% if forloop.index0 == 0 %}
+                            {% if block.settings.placeholder != blank %}
+                              <option value="">{{ block.settings.placeholder }}</option>
+                            {% endif %}
+                          {% else %}
+                            {% if block.settings[option] != blank %}
+                              <option value="{{ block.settings[option]}}">{{ block.settings[option] }}</option>
+                            {% endif %}
+                          {% endif %}
+                        {% endfor %}
+                      </select>
+                    </span>
+
+                  {% elsif block.type == 'paragraph' %}
+                    {{ block.settings.text }}
+                  {% endif %}
+                </div>
+              {% endfor %}
+            </div>
+
+            <input type="hidden" name="challenge" value="false" />
+
+            {%- assign submit_label = 'contact.form.send' | t -%}
+            {%
+              render 'button',
+              label: submit_label,
+              style: settings.form_button_style,
+              class: 'is-within-form'
+            %}
+          {% endform %}
+        </div>
+      </div>
+
+      {% elsif type == "block" %}
+        <div class="one-half medium-down--one-whole column">
+          <div class="contact-form__form">
+            <div class="form__success-message"></div>
+            <div class="one-whole column contact-form__form-errors">
+              <p class="form__error"></p>
+            </div>
+
+            {% form 'contact', class: 'contact-form contact-form--contact-section' %}
+              {% if form.posted_successfully? %}
+                <div class="one-whole column">
+                  <p class="quote has-margin-bottom">{{ 'contact.form.post_success' | t }}</p>
+                </div>
+              {% endif %}
+
+              {% if form.errors %}
+                <div class="one-whole column contact-form__form-errors">
+
+                  <p class="quote">{{ 'general.forms.post_error' | t }}</p>
+
+                    {% assign message = 'contact.form.message' | t %}
+                    {% for field in form.errors %}
+                      {% if field == 'form' %}
+                        <p class="form__error">
+                          {{ form.errors.messages[field] }}
+                        </p>
+                      {% else %}
+                        <p class="form__error">
+                          {% assign field_name = field | replace: 'body', message %}
+                          {{ 'general.forms.post_field_error_html' | t: field: field_name, error: form.errors.messages[field] }}
+                        </p>
+                      {% endif %}
+                    {% endfor %}
+                </div>
+              {% endif %}
+
+              <div class="contact-form__blocks">
+                <div class="container">
+
+                  <!-- name field-->
+                  <div class="one-whole column">
+                    <div class="contact-form__block contact-form__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                      {% assign name_attr = 'contact.form.name' | handle %}
+                      <label for="contactFormName" class="label {% if settings.use_placeholders %}is-sr-only{% endif %}">
+                        {{ 'contact.form.name' | t }} <span class="required">*</span>
+                      </label>
+                      <input type="text" placeholder="{% if settings.use_placeholders %}{{ 'contact.form.name' | t }}*{% endif %}" name="contact[name_attr]" id="contactFormName" class="input is-{{ field_input_style }} is-{{ field_input_size }}" required="required" />
+                    </div>
+                  </div>
+
+                  <!-- email field-->
+                  <div class="one-whole column">
+                    <div class="contact-form__block contact-form__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                      <label for="contactFormEmail" class="label {% if settings.use_placeholders %}is-sr-only{% endif %}">
+                        {{ 'contact.form.email' | t }} <span class="required">*</span>
+                      </label>
+                      <input type="email" placeholder="{% if settings.use_placeholders %}{{ 'contact.form.email' | t }}*{% endif %}" id="contactFormEmail" class="input is-{{ field_input_style }} is-{{ field_input_size }}" name="contact[email]" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}" required="required">
+                    </div>
+                  </div>
+
+                  <!-- textarea field -->
+                  <div class="one-whole column">
+                    <div class="contact-form__block contact-form__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                      <label for="contactFormMessage" class="label {% if settings.use_placeholders %}is-sr-only{% endif %}">
+                        {{ 'contact.form.message' | t }} <span class="required">*</span>
+                      </label>
+                      <textarea placeholder="{% if settings.use_placeholders %}{{ 'contact.form.message' | t }}*{% endif %}" id="contactFormMessage" class="textarea is-{{ field_input_style }} is-{{ field_input_size }}" name="contact[body]" required="required"></textarea>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <input type="hidden" name="challenge" value="false" />
+              <div class="container">
+                <div class="one-whole column">
+                  {% assign submit_label = 'contact.form.send' | t %}
+                  {%
+                    render 'button',
+                    label: submit_label,
+                    style: settings.form_button_style,
+                    class: 'is-within-form'
+                  %}
+                </div>
+              </div>
+            {% endform %}
+          </div>
+        </div>
+    {% endif %}
+    {% if contact_content == true %}
+      <div class="{% if section.blocks.size > 0 %}one-half{% else %}two-thirds offset-by-three{% endif %} medium-down--one-whole column">
+        {% if content_image != nil %}
+          <div class="contact-form__image">
+            {%
+              render 'image-element',
+              image: content_image,
+              alt: content_image.alt
+            %}
+          </div>
+        {% endif %}
+
+        <div class="text-align-{{ text_alignment }}">
+          {% if title != blank %}
+            <h2 class="contact-form__heading title"><span>{{ title }}</span></h2>
+          {% endif %}
+
+          {% if section.settings.address != blank %}
+            <div class="contact-form__text">
+               {% if section.settings.address != blank %}
+              <p>
+                {% if section.settings.address_link != blank %}
+                  <a href="{{ section.settings.address_link }}" target="_blank">
+                {% endif %}
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14px" height="21px" viewBox="0 0 14 21" version="1.1">
+                    <title>10</title>
+                    <g id="🖥-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Desktop_Contact-Us" transform="translate(-536.000000, -1037.000000)" fill="#000000" fill-rule="nonzero">
+                            <g id="Group-3" transform="translate(536.000000, 1035.000000)">
+                                <path d="M14,9.33333333 C14,5.46733333 10.866,2.33333333 7,2.33333333 C3.134,2.33333333 0,5.46733333 0,9.33333333 C0,10.7203333 0.41,12.0103333 1.105,13.0983333 L1.097,13.0983333 C3.457,16.7933333 7,22.3333333 7,22.3333333 L12.903,13.0983333 L12.896,13.0983333 C13.59,12.0103333 14,10.7203333 14,9.33333333 Z M7,12.3333333 C5.343,12.3333333 4,10.9903333 4,9.33333333 C4,7.67633333 5.343,6.33333333 7,6.33333333 C8.657,6.33333333 10,7.67633333 10,9.33333333 C10,10.9903333 8.657,12.3333333 7,12.3333333 Z" id="10"/>
+                            </g>
+                        </g>
+                    </g>
+                  </svg>
+            </span>
+            {{ section.settings.address }}
+            {% if section.settings.address_link != blank %}
+                  </a>
+                {% endif %}
+              </p>
+                  {% endif %}
+                    {% if section.settings.phone != blank %}
+              <p>
+                {% if section.settings.phone_link != blank %}
+                  <a href="{{ section.settings.phone_link }}">
+                {% endif %}
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 16 16" version="1.1">
+                      <title>11</title>
+                      <g id="🖥-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Desktop_Contact-Us" transform="translate(-606.000000, -1070.000000)" fill="#000000" fill-rule="nonzero">
+                              <g id="Group-2" transform="translate(606.000000, 1067.003333)">
+                                  <path d="M14.910107,13.7688566 C14.0973551,13.1157036 13.3518174,12.7981763 12.6308377,12.7981763 C11.5878756,12.7981763 10.8369363,13.4616314 10.1570535,14.1412913 C10.078869,14.2195316 9.98420104,14.2560066 9.8591837,14.2560066 C9.28627572,14.2560623 8.2783965,13.5385908 6.86355659,12.1235838 C5.1990718,10.4589877 4.56975288,9.40026621 4.99291848,8.97693355 C6.14007093,7.83017091 6.4981941,6.68056824 4.74182575,4.4962452 C4.1130637,3.71367562 3.49788928,3.33333333 2.86116398,3.33333333 C2.00247026,3.33333333 1.34970711,4.01973144 0.77379203,4.62538338 C0.674223653,4.73007496 0.58016829,4.8289751 0.487950599,4.92119279 C-0.162974883,5.57206258 -0.162640761,6.99174726 0.488897278,8.719047 C1.20375145,10.6142431 2.61519445,12.6758876 4.46327931,14.5242509 C5.89248647,15.9533467 7.44754628,17.1082953 8.96045102,17.883737 C10.2812913,18.5607797 11.5624823,18.9235249 12.5680227,18.9235249 C12.5681341,18.9235249 12.5682455,18.9235249 12.5684125,18.9235249 C13.1976757,18.9235249 13.7088268,18.7862564 14.0464015,18.5070974 C14.7321314,17.9401479 16.0084777,16.8900022 16,15.6426132 C15.9952798,14.9735894 15.6286922,14.3466094 14.910107,13.7688566 Z" id="11"/>
+                              </g>
+                          </g>
+                      </g>
+                    </svg>
+                  </span>{{ section.settings.phone }}
+                {% if section.settings.phone_link != blank %}
+                  </a>
+                {% endif %}
+              </p>
+                       {% endif %}
+                  {% if section.settings.email != blank %}
+              <p>
+                <a href="mailto:{{ section.settings.email | escape }}">
+                  <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="12px" viewBox="0 0 16 12" version="1.1">
+                      <title>12</title>
+                      <g id="🖥-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="Desktop_Contact-Us" transform="translate(-642.000000, -1104.000000)" fill="#000000" fill-rule="nonzero">
+                              <g id="Group" transform="translate(642.000000, 1097.673333)">
+                                  <g id="12" transform="translate(0.000000, 6.923525)">
+                                      <path d="M9.63918367,5.77632653 L8.20897959,6.99102041 C8.09469388,7.08571429 7.92816327,7.08571429 7.81714286,6.99102041 L6.38693878,5.77959184 L0.545306122,10.7167347 L15.4546939,10.7167347 L9.63918367,5.77632653 Z" id="Path"/>
+                                      <polygon id="Path" points="0 0.368979592 0 10.3477551 5.88081633 5.35836735"/>
+                                      <polygon id="Path" points="0.545306122 0 8 6.32489796 15.4546939 0"/>
+                                      <polygon id="Path" points="10.1191837 5.35836735 16 10.3477551 16 0.368979592"/>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                  </span>{{ section.settings.email }}
+                </a>
+              </p>
+                      {% endif %}
+            </div>
+          {% endif %}
+
+          {% if social_enable %}
+            <div class="contact-form__social">
+              {% render 'social-icons' %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% comment %}JavaScript{% endcomment %}
+<script
+  type="application/json"
+  data-section-id="{{ section.id }}"
+  data-section-data
+>
+  {}
+</script>
+<script src="{{ 'z__jsCustomContactForm.js' | asset_url }}"></script>
+
+{% schema %}
+  {
+    "name": "Contact",
+    "class": "contact-section jsCustomContactForm",
+    "max_blocks": 20,
+    "settings": [
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "content_image",
+        "label": "Image",
+        "info": "1000 x 1000px recommended"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Get in touch today"
+      },
+      {
+        "type": "text",
+        "id": "address",
+        "label": "Address"
+      },
+      {
+        "type": "url",
+        "id": "address_link",
+        "label": "Address link"
+      },
+      {
+        "type": "text",
+        "id": "phone",
+        "label": "Phone"
+      },
+      {
+        "type": "url",
+        "id": "phone_link",
+        "label": "Phone link"
+      },
+      {
+        "type": "text",
+        "id": "email",
+        "label": "Email"
+      },
+      {
+        "type": "checkbox",
+        "id": "social_enable",
+        "label": "Display social media icons",
+        "default": true
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      },
+      {
+        "type": "header",
+        "content": "Contact form"
+      },
+      {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "#E5E5E5"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text",
+        "default": "#000000",
+        "info": "Does not apply to placeholders."
+      },
+      {
+        "type": "select",
+        "id": "form_position",
+        "label": "Form position",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      },
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "select",
+        "id": "width",
+        "label": "Width",
+        "default": "wide",
+        "options": [
+          {
+            "value": "half",
+            "label": "Half"
+          },
+          {
+            "value": "standard",
+            "label": "Standard"
+          },
+          {
+            "value": "wide",
+            "label": "Wide"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Spacing Desktop"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Top spacing",
+        "min": 0,
+        "max": 80,
+        "default": 0,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Bottom spacing",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_left",
+        "label": "Left spacing",
+        "min": 0,
+        "max": 80,
+        "default": 0,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_right",
+        "label": "Right spacing",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "margin_top",
+        "label": "Top Gutter",
+        "min": 0,
+        "max": 80,
+        "default": 0,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom",
+        "label": "Bottom Gutter",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "header",
+        "content": "Spacing Mobile"
+      },
+      {
+        "type": "range",
+        "id": "padding_top_m",
+        "label": "Top spacing",
+        "min": 0,
+        "max": 80,
+        "default": 20,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom_m",
+        "label": "Bottom spacing",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_left_m",
+        "label": "Left spacing",
+        "min": 0,
+        "max": 80,
+        "default": 0,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "padding_right_m",
+        "label": "Right spacing",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "margin_top_m",
+        "label": "Top Gutter",
+        "min": 0,
+        "max": 80,
+        "default": 0,
+        "unit": "px"
+      },
+      {
+        "type": "range",
+        "id": "margin_bottom_m",
+        "label": "Bottom Gutter",
+        "default": 0,
+        "min": 0,
+        "max": 80,
+        "unit": "px"
+      },
+      {
+        "type": "color",
+        "id": "section_bg",
+        "label": "Section Background"
+      },
+      {
+        "type": "select",
+        "id": "animation",
+        "label": "Animation",
+        "default": "none",
+        "options": [
+          {
+            "value": "none",
+            "label": "None"
+          },
+          {
+            "value": "fadeIn",
+            "label": "Fade in"
+          },
+          {
+            "value": "fadeInDown",
+            "label": "Fade in down"
+          },
+          {
+            "value": "fadeInLeft",
+            "label": "Fade in left"
+          },
+          {
+            "value": "fadeInRight",
+            "label": "Fade in right"
+          },
+          {
+            "value": "slideInLeft",
+            "label": "Slide in left"
+          },
+          {
+            "value": "slideInRight",
+            "label": "Slide in right"
+          },
+          {
+            "value": "zoomIn",
+            "label": "Zoom in"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Advanced"
+      },
+      {
+        "type": "text",
+        "id": "css_class",
+        "label": "CSS Class"
+      },
+      {
+        "type": "textarea",
+        "id": "custom_css",
+        "label": "Custom CSS"
+      }
+    ],
+    "blocks": [
+       {
+        "type": "multiple_fields",
+        "name": "Multiple Fields",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Title",
+            "default": "Select all that apply"
+          },
+           {
+            "type": "text",
+            "id": "label_1",
+            "label": "Label",
+            "default": "Title"
+          },
+            {
+            "type": "checkbox",
+            "id": "required_1",
+            "label": "Field is required"
+          },
+          
+            {
+            "type": "text",
+            "id": "label_2",
+            "label": "Label",
+            "default": "Title"
+          },
+            {
+            "type": "checkbox",
+            "id": "required_2",
+            "label": "Field is required"
+          },
+            {
+            "type": "text",
+            "id": "label_3",
+            "label": "Label",
+            "default": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "required_3",
+            "label": "Field is required"
+          }
+          
+        ]
+       },
+      {
+        "type": "checkbox",
+        "name": "Checkbox",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Title",
+            "default": "Select all that apply"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          },
+          {
+            "type": "text",
+            "id": "options_1",
+            "label": "Option 1",
+            "default": "Option 1"
+          },
+          {
+            "type": "text",
+            "id": "options_2",
+            "label": "Option 2",
+            "default": "Option 2"
+          },
+          {
+            "type": "text",
+            "id": "options_3",
+            "label": "Option 3",
+            "default": "Option 3"
+          },
+          {
+            "type": "text",
+            "id": "options_4",
+            "label": "Option 4"
+          },
+          {
+            "type": "text",
+            "id": "options_5",
+            "label": "Option 5"
+          },
+          {
+            "type": "text",
+            "id": "options_6",
+            "label": "Option 6"
+          },
+          {
+            "type": "text",
+            "id": "options_7",
+            "label": "Option 7"
+          },
+          {
+            "type": "text",
+            "id": "options_8",
+            "label": "Option 8"
+          },
+          {
+            "type": "text",
+            "id": "options_9",
+            "label": "Option 9"
+          },
+          {
+            "type": "text",
+            "id": "options_10",
+            "label": "Option 10"
+          }
+        ]
+      },
+      {
+        "type": "email",
+        "name": "Email (required)",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Email field must be included."
+          },
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label",
+            "default": "Title"
+          }
+        ]
+      },
+      {
+        "type": "dropdown",
+        "name": "Drop-down",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Title",
+            "default": "Make a selection"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          },
+          {
+            "type": "text",
+            "id": "options_1",
+            "label": "Option 1",
+            "default": "Option 1"
+          },
+          {
+            "type": "text",
+            "id": "options_2",
+            "label": "Option 2",
+            "default": "Option 2"
+          },
+          {
+            "type": "text",
+            "id": "options_3",
+            "label": "Option 3",
+            "default": "Option 3"
+          },
+          {
+            "type": "text",
+            "id": "options_4",
+            "label": "Option 4"
+          },
+          {
+            "type": "text",
+            "id": "options_5",
+            "label": "Option 5"
+          },
+          {
+            "type": "text",
+            "id": "options_6",
+            "label": "Option 6"
+          },
+          {
+            "type": "text",
+            "id": "options_7",
+            "label": "Option 7"
+          },
+          {
+            "type": "text",
+            "id": "options_8",
+            "label": "Option 8"
+          },
+          {
+            "type": "text",
+            "id": "options_9",
+            "label": "Option 9"
+          },
+          {
+            "type": "text",
+            "id": "options_10",
+            "label": "Option 10"
+          }
+        ]
+      },
+      {
+        "type": "paragraph",
+        "name": "Paragraph",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use this field to display&nbsp;text of any kind, such as&nbsp;standard reply times for inquiries.</p>"
+          }
+        ]
+      },
+      {
+        "type": "radio",
+        "name": "Radio buttons",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Title",
+            "default": "Choose an option"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          },
+          {
+            "type": "text",
+            "id": "options_1",
+            "label": "Option 1",
+            "default": "Option 1"
+          },
+          {
+            "type": "text",
+            "id": "options_2",
+            "label": "Option 2",
+            "default": "Option 2"
+          },
+          {
+            "type": "text",
+            "id": "options_3",
+            "label": "Option 3",
+            "default": "Option 3"
+          },
+          {
+            "type": "text",
+            "id": "options_4",
+            "label": "Option 4"
+          },
+          {
+            "type": "text",
+            "id": "options_5",
+            "label": "Option 5"
+          },
+          {
+            "type": "text",
+            "id": "options_6",
+            "label": "Option 6"
+          },
+          {
+            "type": "text",
+            "id": "options_7",
+            "label": "Option 7"
+          },
+          {
+            "type": "text",
+            "id": "options_8",
+            "label": "Option 8"
+          },
+          {
+            "type": "text",
+            "id": "options_9",
+            "label": "Option 9"
+          },
+          {
+            "type": "text",
+            "id": "options_10",
+            "label": "Option 10"
+          }
+        ]
+      },
+      {
+        "type": "textarea",
+        "name": "Text area",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Title",
+            "default": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          }
+        ]
+      },
+       {
+        "type": "date",
+        "name": "Date",
+        "settings": [
+
+           {
+            "type": "text",
+            "id": "label",
+            "label": "Label",
+            "default": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          }
+        ]
+       },
+      {
+        "type": "textfield",
+        "name": "Text field",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label",
+            "default": "Title"
+          },
+          {
+            "type": "checkbox",
+            "id": "required",
+            "label": "Field is required"
+          }
+        ]
+      }
+    ],
+    "presets": [{
+      "name": "Contact form",
+      "category": "Store information",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "textfield",
+          "settings": {
+            "label": "Name",
+            "required": true
+          }
+        },
+        {
+          "type": "email",
+          "settings": {
+            "label": "Email"
+          }
+        },
+        {
+          "type": "textarea",
+          "settings": {
+            "label": "Message",
+            "required": false
+          }
+        }
+      ]
+    }]
+  }
+{% endschema %}

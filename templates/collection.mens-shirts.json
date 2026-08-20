@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_9da7af22-7f5e-4078-91d1-e1e897e7e4da.png",
+        "image_darken": false,
+        "banner_height": "medium",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection-template-boost-pfs-filter",
+      "custom_css": [],
+      "settings": {}
+    },
+    "index_divider_dKJqxW": {
+      "type": "index__divider",
+      "name": "Divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 3,
+        "divider_color": "#71b954",
+        "alignment": "center",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_VHCTdD": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Your Go-To Shirts for Any Occasion",
+        "subheading": "<p>When it comes to men’s shirts, versatility is everything. At Pants Store, we’ve pulled together a lineup that works for campus, nights out, and special occasions. You’ll find everything from casual button-down shirts and polos to lightweight summer shirts and laid-back tees. Looking sharp doesn’t mean sacrificing comfort. Our men’s button-down shirt collection includes slim fit styles, untucked shirts for an easy weekend vibe, and white shirts that instantly clean up your look. For warmer weather, short-sleeve shirts in breathable, lightweight fabric are a must, while organic cotton options bring natural comfort you’ll appreciate day after day. Whether you’re headed to class, a formal event, or just hanging out, these versatile shirts make it easy to get dressed without overthinking it.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 20,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_RaDNWp": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_43TCa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/men_shirt_3.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_JWBypN": {
+          "type": "text",
+          "settings": {
+            "title": "Tees You’ll Live In",
+            "heading_size": "regular",
+            "text": "<p>Every guy needs a steady rotation of tees, and our collection delivers just that. Think soft fabric, sleeves that hit just right, and cuts that stay comfortable even after hours of wear. A white shirt is an obvious essential, but our lineup includes everything from slim fit basics to bold graphics for when you want to show a little personality.</p><p>Perfect for layering under a casual button-down or rocking solo, these tees hold their shape and color, making them an everyday staple worth stocking up on.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_43TCa3",
+        "text_JWBypN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_dPQJ3P": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "text_PrpLAk": {
+          "type": "text",
+          "settings": {
+            "title": "Polos That Work Anywhere",
+            "heading_size": "regular",
+            "text": "<p>The polo shirt is the original button-up for guys who want to look pulled together without trying too hard. Our polos are designed with fabric that feels good all day: lightweight, breathable, and built to keep up with you. Pair one with jeans for a casual afternoon, or with khakis for a more polished look.</p><p>The collar detail gives polos an edge over basic tees, making them a solid choice for both casual Fridays and gameday celebrations. Consider them your go-to when you need something between a tee and a dress shirt.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "#fefaef",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "image_WFxX6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/men_shirt_2.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PrpLAk",
+        "image_WFxX6a"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_JBjpEQ": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_p8qBcx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/men_shirt_1.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_nyzff8": {
+          "type": "text",
+          "settings": {
+            "title": "Button Downs Made Easy",
+            "heading_size": "regular",
+            "text": "<p>Few pieces of clothing are as reliable as a button-down shirt. At Pants Store, you’ll find more casual button-down shirts for everyday wear, as well as sharper dress shirt picks for when the occasion calls for it. Non-iron stretch fabric keeps you looking put-together with less effort, while untucked shirt designs make casual outfits look intentional instead of sloppy.</p><p>From elegant menswear styles for special occasions to original shirt designs that lean more casual, our button-up shirts are made to fit into every part of your week. Slim fit cuts bring a modern edge, while lightweight fabric and organic cotton options keep comfort front and center.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_p8qBcx",
+        "text_nyzff8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_dbd38q": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Pants Store",
+        "subheading": "<p>Shopping for men’s shirts shouldn’t be complicated. Pants Store brings together trusted brands, trending looks, and the perfect fit all in one place. With free shipping on orders over $100, easy refund options, and no surprise shipping costs, you can focus on finding the shirts you’ll actually wear. As a family-owned company rooted in the South, we know style is about balancing comfort and confidence. That’s why our men’s shirt collection covers everything from casual button-down shirts and short sleeve summer styles to formal event picks. When you shop Pants Store, you’re not just buying a shirt - you’re investing in versatile menswear that makes getting dressed simple, stylish, and stress-free.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "index_divider_dKJqxW",
+    "index_heading_VHCTdD",
+    "index_image_with_text_RaDNWp",
+    "index_image_with_text_dPQJ3P",
+    "index_image_with_text_JBjpEQ",
+    "index_heading_dbd38q"
+  ]
+}

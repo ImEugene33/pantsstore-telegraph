@@ -1,0 +1,314 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/18.jpg",
+        "image_darken": false,
+        "subtitle": "",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "page": {
+      "type": "page-content__main",
+      "disabled": true,
+      "settings": {
+        "show_heading": false,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "index__faq",
+      "blocks": {
+        "16306825309648acac-5": {
+          "type": "content",
+          "settings": {
+            "title": "What payment options do you offer?",
+            "answer": "<p>Customers can pay with credit card, Shop Pay, PayPal, and Afterpay.</p>"
+          }
+        },
+        "64761bce-7d20-461b-a6ab-f0ab08011ac8": {
+          "type": "content",
+          "settings": {
+            "title": "How do I use my E-Gift Card?",
+            "answer": "<p>When you purchase an E-Gift Card, you will receive an email with a code to use at checkout. At checkout, you can add this code in the section that says \"add a discount code or gift card\" and it will apply your gift card amount.</p>"
+          }
+        },
+        "355e6624-9777-4150-929c-0b8ee488f7da": {
+          "type": "content",
+          "settings": {
+            "title": "Can I use my E-Gift Card in stores?",
+            "answer": "<p>E-Gift Cards can only be used on pantsstore.com.</p>"
+          }
+        },
+        "16306825309648acac-1": {
+          "type": "content",
+          "settings": {
+            "title": "What is excluded from the first time 10% off discount code?",
+            "answer": "<p>The first time 10% off discount code excludes all Bogg and Hoka products.</p>"
+          }
+        },
+        "16306825309648acac-2": {
+          "type": "content",
+          "settings": {
+            "title": "Do you offer local pickup?",
+            "answer": "<p>Yes! We offer local pickup at all of our locations.You can check the availability of a product at each location before you add it to your cart.</p>"
+          }
+        },
+        "370eb905-129d-4cbc-b23b-7bb8ce2ede48": {
+          "type": "content",
+          "settings": {
+            "title": "How long will it take to process my order?",
+            "answer": "<p>Processing time can take from 4 to 7 business days. Processing time may be longer during the holidays.</p>"
+          }
+        },
+        "16306825309648acac-6": {
+          "type": "content",
+          "settings": {
+            "title": "How can I contact someone about my order?",
+            "answer": "<p>If you have a question about your order, you can email orders@pantsstore.com  or call the web department at 205-699-6166.</p>"
+          }
+        },
+        "52501a66-ab03-4b66-97ce-311623d23d6a": {
+          "type": "content",
+          "settings": {
+            "title": "I ordered over the weekend and I need to make changes to my order, what do I do?",
+            "answer": "<p>If you order Friday afternoon-Sunday and need to make a change to your order, please call any of our store front locations (excluding Leeds on Sunday). Please do not email to make a change to your order on Friday afternoon, Saturday, or Sunday. We will not open the email until the following Monday. </p>"
+          }
+        },
+        "16306825309648acac-3": {
+          "type": "content",
+          "settings": {
+            "title": "What do I do if an item is out of stock?",
+            "answer": "<p>If a product you want is out of stock, you can sign up to be emailed when it is available again on the product page.</p>"
+          }
+        },
+        "16306825309648acac-7": {
+          "type": "content",
+          "settings": {
+            "title": "How do I cancel my order?",
+            "answer": "<p>After an order is placed, there is a limited amount of time for change to be made. If you want to cancel your order, email <a href=\"mailto:orders@pantsstore.com\"><span style=\"text-decoration:underline\">orders@pantsstore.com</span></a> and we will cancel your order if it has not already been shipped.</p>"
+          }
+        },
+        "3c7aca8b-96df-4fa8-9be1-1d6cb01f2f2f": {
+          "type": "content",
+          "settings": {
+            "title": "Where do you ship to?",
+            "answer": "<p>We only ship within the United States. If you are located outside of the United States, you can email us at <a href=\"mailto:orders@pantsstore.com\"><span style=\"text-decoration:underline\">orders@pantsstore.com</span></a>. </p>"
+          }
+        },
+        "e5a80ad7-1827-474a-b243-fd878986e0d7": {
+          "type": "content",
+          "settings": {
+            "title": "What are your shipping options?",
+            "answer": "<p>We offer the following shipping methods: $8 UPS Ground, $10 FedEx Ground, UPS Next Day Air, and FedEx 2Day.</p>"
+          }
+        },
+        "e314261c-1415-46d6-8785-90ef8a1fc049": {
+          "type": "content",
+          "settings": {
+            "title": "What is the difference between UPS Next Day Air and UPS Ground?",
+            "answer": "<p>UPS Next Day Air orders will be processed and shipped out the same day as ordered as long as it is placed before 3:30PM CST. These orders should be delivered the next business day. UPS ground orders will be processed and shipped out in 4 to 7 business days. UPS Ground orders typically take 2 to 3 business days to be delivered after being shipped. </p>"
+          }
+        },
+        "a20e2f7a-b4b2-42fa-b21e-11e33f3f06b8": {
+          "type": "content",
+          "settings": {
+            "title": "What is the difference between Fedex 2 Day and Fedex Ground?",
+            "answer": "<p>Fedex 2 day allows for a package to be delivered within two days of us shipping out the order. Fedex Ground allows for a package to be delivered in 1-4 days of us shipping out the order. Processing time is NOT included in Fedex 2 Day or Fedex Ground. The time given at checkout is an ESTIMATED time provided by the carriers. </p>"
+          }
+        },
+        "07f3cd17-c49a-4556-84bc-805a7eff81ee": {
+          "type": "content",
+          "settings": {
+            "title": "Can I receive Next Day Air shipping on the weekends? ",
+            "answer": "<p>No, UPS does not deliver on weekends. The last day to place a Next Day Air order is Thursday at 3:30 central time. If placed after Thursday, Next Day Air orders will be shipped out the following business day. </p>"
+          }
+        },
+        "c60b3ee9-107e-4b4a-8f21-9c6d3ef5f5ac": {
+          "type": "content",
+          "settings": {
+            "title": "What do I do if my order arrives damaged or I receive the wrong items?",
+            "answer": "<p>If your order arrives damaged or you receive the wrong items, you can go to the returns tab on pantsstore.com (<a href=\"https://returns.pantsstore.com/\"><span style=\"text-decoration:underline\">https://returns.pantsstore.com/</span></a>) and return/exchange for the correct items. If you have any issues with this, please email us at <a href=\"mailto:orders@pantsstore.com\"><span style=\"text-decoration:underline\">orders@pantsstore.com</span></a>.</p>"
+          }
+        },
+        "73165e35-51f8-49df-80b7-ac12fc5555b8": {
+          "type": "content",
+          "settings": {
+            "title": "I think my package is lost, what should I do?",
+            "answer": "<p>Please allow one week, from the shipping notification, to see if your package gets delivered. If you do not receive your package within one week of it being shipped, please email us at <a href=\"mailto:orders@pantsstore.com\"><span style=\"text-decoration:underline\">orders@pantsstore.com</span></a>. </p>"
+          }
+        },
+        "298b3afa-91e2-4423-a6bf-97c6fa3cb60b": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "title": "What is Route?",
+            "answer": "<p>Route automatically connects to everything you’ve ordered from all your favorite retailers while allowing you to visually track your packages, anytime, anywhere. Add Route Package Protection at checkout  and unlock full package protection and seamless resolution for order issues. Visit <a href=\"https://shoppers.help.route.com/hc/en-us/articles/6026989008791-Customer-FAQs\"><span style=\"text-decoration:underline\">https://shoppers.help.route.com/hc/en-us/articles/6026989008791-Customer-FAQs</span></a> to read Route’s Customer FAQs.</p>"
+          }
+        },
+        "9e85e1e1-a6eb-475d-b5c8-011af479f528": {
+          "type": "content",
+          "settings": {
+            "title": "How do I return an item?",
+            "answer": "<p>If you would like to return an item, please go to the returns tab on pantsstore.com (<a href=\"https://pantsstore.loopreturns.com/#/\" title=\"https://pantsstore.loopreturns.com/#/\"><span style=\"text-decoration:underline\">https://returns.pantsstore.com/</span></a>) and follow the instructions to receive your prepaid shipping label.</p>"
+          }
+        },
+        "ba88d0e7-100a-4472-a707-9c173bef3b09": {
+          "type": "content",
+          "settings": {
+            "title": "How long do you accept returns?",
+            "answer": "<p>We only accept returns up to 30 days from the purchase date. After 30 days we no longer accept returns. We accept exchanges up to 60 days from the purchase date. After 60 days, we no longer accept returns or exchanges. </p>"
+          }
+        },
+        "ac84daae-b194-4688-bdb3-65448af39fee": {
+          "type": "content",
+          "settings": {
+            "title": "Do you need a printer to print a return label?",
+            "answer": "<p>Yes, or UPS and USPS can print the label for you. </p>"
+          }
+        },
+        "474efd97-061d-47de-8133-d2210f7483a3": {
+          "type": "content",
+          "settings": {
+            "title": "How long do I have to return an item?",
+            "answer": "<p>You have 30 days after your order is delivered to start a return via our returns section. The item must be unworn and still have tags. If the item is a pair of shoes, they must still be in their box. </p>"
+          }
+        },
+        "0c3a68d1-1d14-4eeb-b881-c63a9e7ea544": {
+          "type": "content",
+          "settings": {
+            "title": "Where do I ship my return?",
+            "answer": "<p>You can ship your return to 8029 Parkway Drive, Leeds, AL 35094.</p>"
+          }
+        },
+        "604ac88e-752b-4d4f-9ee9-0837c722420f": {
+          "type": "content",
+          "settings": {
+            "title": "What is the $1.98 at checkout?",
+            "answer": "<p>($1.98) allows you to have free unlimited returns on your order. Didn't checkout with the $1.98 option? You can still go through the return process like normal and purchase a label at a discounted price. </p>"
+          }
+        },
+        "0dd01f39-8aae-4daf-9a61-5b5daacdff86": {
+          "type": "content",
+          "settings": {
+            "title": "Do you provide return labels?",
+            "answer": "<p>You can receive a return label by adding the $1.98 at checkout to your order. Did not add the $1.98? You can purchase a return label at a discount price through our returns portal. </p>"
+          }
+        },
+        "4d7c0fa9-e24d-4612-b6b4-2aeaa8db2d93": {
+          "type": "content",
+          "settings": {
+            "title": "How do I return a VIP order?",
+            "answer": "<p>Please email <a href=\"mailto:cs@pantsstore.com\"><span style=\"text-decoration:underline\">cs@pantsstore.com</span></a> for all VIP returns. </p>"
+          }
+        },
+        "b2f50b61-540d-43ce-83ac-a54ca366ee97": {
+          "type": "content",
+          "settings": {
+            "title": "The price is marked in red, what does that mean?",
+            "answer": "<p>When an item is on sale, the price will be marked in red. This indicates that the item is FINAL SALE. </p>"
+          }
+        },
+        "0db82f73-4faf-4520-a270-20d6c31841ff": {
+          "type": "content",
+          "settings": {
+            "title": "Why is the price marked out on the products page?",
+            "answer": "<p>When an item is on sale, the origional price will have a line through it. The new price will be on the left side of the original price. This means the item is on sale and is FINAL SALE. </p>"
+          }
+        },
+        "9eb4f35b-6143-4cd8-b50c-31a9d784bcc6": {
+          "type": "content",
+          "settings": {
+            "title": "If I email, how long will it take to recieve an answer or reply back?",
+            "answer": "<p>Monday-Friday morning emails will be answered in 1-2 business days. Friday afternoon-Sunday emails will be answered the following Monday. </p>"
+          }
+        },
+        "8dd30578-0c36-4138-bcb9-f81f8e3b0c87": {
+          "type": "content",
+          "settings": {
+            "title": "I’m interested in collabing with Pants Store, who should I email?",
+            "answer": "<p>If you are interested in collabing with us, please email piper@pantsstore.com.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "16306825309648acac-5",
+        "64761bce-7d20-461b-a6ab-f0ab08011ac8",
+        "355e6624-9777-4150-929c-0b8ee488f7da",
+        "16306825309648acac-1",
+        "16306825309648acac-2",
+        "370eb905-129d-4cbc-b23b-7bb8ce2ede48",
+        "16306825309648acac-6",
+        "52501a66-ab03-4b66-97ce-311623d23d6a",
+        "16306825309648acac-3",
+        "16306825309648acac-7",
+        "3c7aca8b-96df-4fa8-9be1-1d6cb01f2f2f",
+        "e5a80ad7-1827-474a-b243-fd878986e0d7",
+        "e314261c-1415-46d6-8785-90ef8a1fc049",
+        "a20e2f7a-b4b2-42fa-b21e-11e33f3f06b8",
+        "07f3cd17-c49a-4556-84bc-805a7eff81ee",
+        "c60b3ee9-107e-4b4a-8f21-9c6d3ef5f5ac",
+        "73165e35-51f8-49df-80b7-ac12fc5555b8",
+        "298b3afa-91e2-4423-a6bf-97c6fa3cb60b",
+        "9e85e1e1-a6eb-475d-b5c8-011af479f528",
+        "ba88d0e7-100a-4472-a707-9c173bef3b09",
+        "ac84daae-b194-4688-bdb3-65448af39fee",
+        "474efd97-061d-47de-8133-d2210f7483a3",
+        "0c3a68d1-1d14-4eeb-b881-c63a9e7ea544",
+        "604ac88e-752b-4d4f-9ee9-0837c722420f",
+        "0dd01f39-8aae-4daf-9a61-5b5daacdff86",
+        "4d7c0fa9-e24d-4612-b6b4-2aeaa8db2d93",
+        "b2f50b61-540d-43ce-83ac-a54ca366ee97",
+        "0db82f73-4faf-4520-a270-20d6c31841ff",
+        "9eb4f35b-6143-4cd8-b50c-31a9d784bcc6",
+        "8dd30578-0c36-4138-bcb9-f81f8e3b0c87"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "width": "standard",
+        "padding_top": 57,
+        "padding_bottom": 62,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 48,
+        "padding_bottom_m": 76,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "page",
+    "main"
+  ]
+}

@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_9da7af22-7f5e-4078-91d1-e1e897e7e4da.png",
+        "image_darken": false,
+        "banner_height": "medium",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection-template-boost-pfs-filter",
+      "custom_css": [],
+      "settings": {}
+    },
+    "index_divider_dKJqxW": {
+      "type": "index__divider",
+      "name": "Divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 3,
+        "divider_color": "#71b954",
+        "alignment": "center",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_VHCTdD": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Roll Tide in Style: Alabama Gameday Outfits",
+        "subheading": "<p>Cheer on football season in style with Alabama gameday fits from The Pants Store! Headed to Bryant-Denny or keeping it casual at a watch party, you’ll be rocking Crimson Tide pride with looks that feel as good as they look.</p><p>Our collection of Alabama gameday attire is more than just stylish—it’s practical, too. Featuring a mix of school colors and fashionable cuts, these outfits are perfect for all-day wear. You’ll find comfortable shoes like tall boots, cute skirts, and easy-to-style accessories that help elevate your look. Plus, with versatile pieces that transition seamlessly from day to night, you can keep the party going after the final whistle.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 20,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_RaDNWp": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_43TCa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/alabama_dress.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_JWBypN": {
+          "type": "text",
+          "settings": {
+            "title": "Dresses & Skirts to Represent the Tide",
+            "heading_size": "regular",
+            "text": "<p>Get ready for the season with stylish dresses and skirts designed to show off your Alabama Crimson Tide pride. From chic sundresses in team colors to stylish skirts that can be dressed up or down, our collection of gameday dresses is perfect for any occasion.  These fashionable pieces are as versatile as they are trendy, perfect for attending a football game, hitting the tailgate, or celebrating a National Title win.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_43TCa3",
+        "text_JWBypN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_dPQJ3P": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "text_PrpLAk": {
+          "type": "text",
+          "settings": {
+            "title": "Bottoms That Score Big",
+            "heading_size": "regular",
+            "text": "<p>Complete your Alabama gameday outfit with the perfect pair of bottoms that suit your style and the occasion! No matter if your style is more comfortable and classic, or styled up, we offer a variety of options to match your gameday needs. From tailored fits to relaxed silhouettes, our bottoms are versatile enough to pair perfectly with any gameday top, ensuring you’re both stylish and comfortable.</p><p>To finish off your look, add a pair of comfortable shoes like cowboy boots that will keep you going strong from tailgate to touchdown. With our carefully curated selection, you can enjoy every moment of game day while cheering for Alabama in complete comfort, knowing you look great from start to finish!</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "#ffffff",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "image_WFxX6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/alabama_bottom.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PrpLAk",
+        "image_WFxX6a"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#ffffff",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_4kF8wW": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_k9hj8N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/alabama_top.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_LWK9zh": {
+          "type": "text",
+          "settings": {
+            "title": "Tops for Every Tide Fan",
+            "heading_size": "regular",
+            "text": "<p>When it comes to Alabama gameday apparel, the right top makes all the difference. From classic Alabama football tees to trendy crop tops and, our collection has something for every fan. Pair a cute game day outfit with a stylish white dress shirt or a team spirit-filled crimson top, and you’ll be ready to root for the Crimson Tide in style. Our tops provide the perfect mix of comfort and fashion.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_k9hj8N",
+        "text_LWK9zh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_dbd38q": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Choose The Pants Store?",
+        "subheading": "<p>At The Pants Store, we pride ourselves on providing fashionable, comfortable Alabama gameday outfits for every woman. With a wide selection of apparel, accessories, and jewelry, our boutique ensures you’ll look and feel your best while supporting your favorite football team. From the convenience of online shopping to our curated collection of gameday apparel, we make it easy for you to represent your school in style. Looking for cute game day outfits, comfortable shoes, or stylish accessories? The Pants Store is your one-stop shop for all things gameday!</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "rgba(0,0,0,0)",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "index_divider_dKJqxW",
+    "index_heading_VHCTdD",
+    "index_image_with_text_RaDNWp",
+    "index_image_with_text_dPQJ3P",
+    "index_image_with_text_4kF8wW",
+    "index_heading_dbd38q"
+  ]
+}

@@ -1,0 +1,79 @@
+<div class="container">
+  <div class="blog-articles-heading">
+    <h1 class="blog-articles-title">{{ page_title }}</h1>
+    {% unless section.settings.blog_subtitle == blank %}
+      <h3 class="blog-articles-subtitle">{{ section.settings.blog_subtitle }}</h3>
+    {% endunless %}
+  </div>
+  {%- paginate blog.articles by 9 -%}
+    <ul class="blog-articles-list">
+      {%- for article in blog.articles -%}
+        <li>
+          <a href="{{ article.url }}">
+            <div class="card-image blog-card__image">
+              <figure class="image">
+                {%- if article.image != blank -%}
+                  {% render 'image-element',
+                    image: article.image,
+                    alt: article.image.alt,
+                    additional_classes: 'blog-card__image'
+                  %}
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+               </figure>
+            </div>
+          </a>
+          <div class="blog-card__content">
+             {%- if section.settings.blog_show_date -%}
+               <span>
+                 {{ article.published_at | time_tag: format: 'month_day_year' }}
+               </span>
+             {%- endif -%}
+             <h4>
+               {{ article.title }}</h4>
+             <p>
+               {%- if article.excerpt.size > 0 -%}
+                 {{ article.excerpt | strip_html | truncate: 152 }}
+               {%- else -%}
+                 {{ article.content | strip_html | truncate: 152 }}
+               {%- endif -%}
+             </p>
+             <a href="{{ article.url }}" aria-label="Read more: {{ article.title }}">Read more</a>
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+    {%- if paginate.pages > 1 -%}
+      {% render 'pagination-blog-custom', paginate: paginate %}
+    {%- endif -%}
+  {% endpaginate %}
+</div>
+
+{% schema %}
+  {
+    "name": "Blog pages",
+    "tag": "section",
+    "class": "blog-articles section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "blog_subtitle",
+        "label": "Blog subtitle"
+      },
+      {
+        "type": "checkbox",
+        "id": "blog_show_date",
+        "label": "Show date",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Blog pages",
+        "category": "Blog"
+      }
+    ]
+  }
+
+{% endschema %}

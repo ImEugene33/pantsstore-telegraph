@@ -1,0 +1,208 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "settings": {
+        "image_darken": false,
+        "subtitle": "Subheading",
+        "width": "wide",
+        "banner_height": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "page-content__main",
+      "settings": {
+        "show_heading": true,
+        "heading_alignment": "left",
+        "width": "standard",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "gallery": {
+      "type": "index__gallery",
+      "blocks": {
+        "0ca3c6f3-8a76-4956-a075-fe1bc38dc99f": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "d4ddf2a4-d35b-47d4-b103-3771e27041fd": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "6cc9f227-7d58-40e5-b107-2d966fde637e": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "9ca8d9ad-5440-497c-b10b-b60d10957b2d": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "87720703-7731-4e6f-8e3d-97d3db1fa58e": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "efb4b41e-966f-4566-960b-58a62b749f1a": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "6ef404ba-d4f4-48ca-940f-bbcabb0164fa": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        },
+        "8ed674f8-0524-462c-ad26-e30a7f38b1d6": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "subtitle": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0ca3c6f3-8a76-4956-a075-fe1bc38dc99f",
+        "d4ddf2a4-d35b-47d4-b103-3771e27041fd",
+        "6cc9f227-7d58-40e5-b107-2d966fde637e",
+        "9ca8d9ad-5440-497c-b10b-b60d10957b2d",
+        "87720703-7731-4e6f-8e3d-97d3db1fa58e",
+        "efb4b41e-966f-4566-960b-58a62b749f1a",
+        "6ef404ba-d4f4-48ca-940f-bbcabb0164fa",
+        "8ed674f8-0524-462c-ad26-e30a7f38b1d6"
+      ],
+      "settings": {
+        "gallery_type": "classic",
+        "crop_images": false,
+        "images_per_row": 4,
+        "enable_lightbox": true,
+        "overlay_color": "#000000",
+        "link_color": "#ffffff",
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 0,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#ce8787",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "164143829204b319cd": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "1641438292c66c5b5e-0": {
+          "type": "image",
+          "settings": {
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "1641438292c66c5b5e-1": {
+          "type": "image",
+          "settings": {
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "1641438292c66c5b5e-2": {
+          "type": "text",
+          "settings": {
+            "title": "Heading text here",
+            "heading_size": "regular",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_label": "View all",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1641438292c66c5b5e-0",
+        "1641438292c66c5b5e-1",
+        "1641438292c66c5b5e-2"
+      ],
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#d93636",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "gallery",
+    "164143829204b319cd"
+  ]
+}

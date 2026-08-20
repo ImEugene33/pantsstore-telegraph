@@ -1,0 +1,997 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "show_announcement_bar": true,
+    "show_age_verification": false,
+    "show_popup": false,
+    "show_fixed_message": false,
+    "mobile_logo_width": 80,
+    "logo_mobile_position": "center",
+    "logo_menu_position": "left",
+    "show_locale_selector": false,
+    "show_currency_selector": false,
+    "mobile_menu_background_color": "#ffffff",
+    "mobile_menu_link_color": "#1a1a1a",
+    "mobile_menu_link_hover_color": "#000000",
+    "button_primary_bg_color": "#1a1a1a",
+    "button_primary_border_color": "#1a1a1a",
+    "button_primary_bg_color--highlight": "#1a1a1a",
+    "button_primary_bg_color_transparency--highlight": 0,
+    "button_primary_border_color--highlight": "#1a1a1a",
+    "button_secondary_bg_color": "#ffffff",
+    "button_secondary_bg_color_transparency": 100,
+    "button_secondary_border_color": "#1a1a1a",
+    "button_secondary_bg_color--highlight": "#ffffff",
+    "button_secondary_bg_color_transparency--highlight": 0,
+    "button_secondary_border_color--highlight": "#1a1a1a",
+    "button_secondary_text_color--highlight": "#1a1a1a",
+    "button_link_text_color": "#1a1a1a",
+    "button_link_text_color--highlight": "#1a1a1a",
+    "button_cart_bg_color": "#ffffff",
+    "button_cart_bg_color--highlight": "#000000",
+    "button_cart_border_color": "#1a1a1a",
+    "button_cart_border_color--highlight": "#1a1a1a",
+    "button_cart_text_color": "#1a1a1a",
+    "button_cart_text_color--highlight": "#ffffff",
+    "icon": "icon_solid",
+    "breadcrumb_capitalization": "uppercase",
+    "use_placeholders": true,
+    "display_heading_divider": false,
+    "heading_divider_style": "short",
+    "heading_divider_width": 1,
+    "mega_menu_2": true,
+    "mega_menu_3": true,
+    "mega_menu_4": true,
+    "mega_menu_5": true,
+    "mega_menu_6": true,
+    "mega_menu_7": true,
+    "border_color": "#ffffff",
+    "regular_color": "#1a1a1a",
+    "link_color": "#1a1a1a",
+    "link_hover_color": "#1a1a1a",
+    "heading_color": "#1a1a1a",
+    "divider_color": "#1a1a1a",
+    "logo_text": "#1a1a1a",
+    "header_background": "#ffffff",
+    "header_link_color": "#1a1a1a",
+    "header_link_hover_color": "#71b954",
+    "header_cart_badge_color": "#1a1a1a",
+    "dropdown_link_hover_color": "#71b954",
+    "footer_background": "#fefaef",
+    "footer_border": "#fefaef",
+    "footer_link_color": "#1a1a1a",
+    "footer_link_hover_color": "#1a1a1a",
+    "footer_text_color": "#1a1a1a",
+    "sale_color": "#000000",
+    "was_price_color": "#212426",
+    "product_hover_bg_color": "#000000",
+    "banner_bestseller": "#000000",
+    "banner_new": "#000000",
+    "banner_sale": "#000000",
+    "regular__font_custom": "Brandon Grotesque Regular",
+    "regular_font_size": 19,
+    "logo__font_custom": "Brandon Grotesque Bold",
+    "logo_font_size": 30,
+    "logo_font_style": "uppercase",
+    "nav__font_custom": "Brandon Grotesque Medium",
+    "nav_font_size": 14,
+    "nav_letter_spacing": 0,
+    "nav_font_style": "uppercase",
+    "dropdown_heading_font_size": 19,
+    "dropdown_font_size": 17,
+    "button__font_custom": "Brandon Grotesque Medium",
+    "button_letter_spacing": 0,
+    "button_font_style": "uppercase",
+    "heading__font_custom": "Brandon Grotesque Bold",
+    "heading_size": 30,
+    "heading_letter_spacing": 0,
+    "heading_font_style": "uppercase",
+    "preheading__font_custom": "Brandon Grotesque Regular",
+    "preheading_size": 19,
+    "subheading__font_custom": "Brandon Grotesque Regular",
+    "subheading_size": 19,
+    "banner_heading__font_custom": "Brandon Grotesque Black",
+    "banner_heading_size": 46,
+    "banner_heading_style": "uppercase",
+    "banner_text__font_custom": "",
+    "banner_text_size": 19,
+    "footer_heading_font_size": 17,
+    "footer_font_size": 13,
+    "show_secondary_image": true,
+    "display_vendor": false,
+    "thumbnail_hover_enabled": false,
+    "stickers_enabled": false,
+    "sticker_shape": "square",
+    "collection_swatches": true,
+    "collection_swatches_shape": "square",
+    "enable_shopify_review_comments": true,
+    "enable_shopify_collection_badges": false,
+    "select_first_available_variant": false,
+    "display_product_quantity": true,
+    "product_form_style": "radio",
+    "enable_swatches": true,
+    "notify_me_form": false,
+    "enable_quickshop": true,
+    "quickshop_truncate_words": true,
+    "cart_action": "drawer",
+    "show_lock_icon": false,
+    "cart_icon": "cart",
+    "display_special_instructions": false,
+    "display_tos_checkbox": false,
+    "display_ajax_quantity_box": true,
+    "enable_shipping_calculator": false,
+    "enable_freeshipping_indicator": false,
+    "freeshipping_indicator_minicart": false,
+    "indicator_type": "both",
+    "cart_free_shipping_threshold": "500",
+    "currency_format": "money_format",
+    "show_multiple_currencies": false,
+    "disqus_enabled": false,
+    "twitter_link": "",
+    "facebook_link": "https://www.facebook.com/PantsStore/",
+    "youtube_link": "",
+    "vimeo_link": "https://vimeo.com/user19328528",
+    "tiktok_link": "https://www.tiktok.com/@pantsstore",
+    "pinterest_link": "",
+    "tumblr_link": "",
+    "instagram_link": "https://www.instagram.com/PantsStore/",
+    "snapchat_link": "",
+    "houzz_link": "",
+    "linkedin_link": "",
+    "dribbble_link": "",
+    "behance_link": "",
+    "flickr_link": "",
+    "email_link": "",
+    "favicon": "shopify://shop_images/PS_Favicon.webp",
+    "checkout_header_image": "shopify://shop_images/New_Project_48.png",
+    "checkout_logo_image": "shopify://shop_images/Logo-header.png",
+    "checkout_logo_size": "large",
+    "checkout_accent_color": "#606569",
+    "checkout_button_color": "#1a1a1a",
+    "h1_font": "alegreya_sans_n7",
+    "h1_font_size_max": 70,
+    "h2_font": "alegreya_sans_n5",
+    "h2_font_size_max": 48,
+    "h2_font_transform": true,
+    "h4_font": "alegreya_sans_n4",
+    "text_font": "sans-serif",
+    "text_font_size_max": 16,
+    "text_font_size_min": 14,
+    "text_font_spacing": 1,
+    "text_font_transform": false,
+    "text_small_font_size_max": 14,
+    "text_small_font_size_min": 12,
+    "h1_size": 60,
+    "h1_size_mobile": 36,
+    "h2_size_mobile": 30,
+    "h3_size": 36,
+    "h3_size_mobile": 32,
+    "h4_size": 32,
+    "h4_size_mobile": 24,
+    "h5_size": 24,
+    "h5_size_mobile": 20,
+    "h6_size": 20,
+    "h6_size_mobile": 18,
+    "text_size": 18,
+    "text_size_mobile": 16,
+    "text_small_size": 16,
+    "text_small_size_mobile": 14,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "icon_label": "",
+          "text": "<p>FREE SHIPPING ON ORDERS $100 OR MORE! </p>",
+          "alignment": "center",
+          "size": "small",
+          "button_label": "",
+          "link": "shopify://collections",
+          "button_style": "button--primary",
+          "background": "#000000",
+          "text_color": "#ffffff",
+          "width": "wide",
+          "homepage_only": false,
+          "enable_sticky": false,
+          "show_close_icon": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "index__age-verification": {
+        "type": "index__age-verification",
+        "settings": {
+          "title": "Title",
+          "subtitle": "<p>Subtitle</p>",
+          "yes_label": "Yes",
+          "no_label": "No",
+          "warning_title": "Sorry",
+          "warning_subtitle": "<p>Subtitle</p>",
+          "restrict_scroll": false,
+          "expire": 5,
+          "button_style": "button--primary",
+          "text_alignment": "center",
+          "padding_top": 20,
+          "padding_bottom": 20,
+          "padding_left": 20,
+          "padding_right": 20,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header__top-bar": {
+        "type": "header__top-bar",
+        "blocks": {
+          "header__top-bar-1": {
+            "type": "social_media",
+            "settings": {}
+          },
+          "header__top-bar-0": {
+            "type": "text",
+            "settings": {
+              "text": "Free shipping text"
+            }
+          }
+        },
+        "block_order": [
+          "header__top-bar-1",
+          "header__top-bar-0"
+        ],
+        "settings": {
+          "show_top_bar": false,
+          "font": "open_sans_n4",
+          "font_style": "none",
+          "font_size": 20,
+          "letter_spacing": 1,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "background": "#000000",
+          "link_color": "#ffffff",
+          "link_hover_color": "#000000",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "header-classic": {
+        "type": "header-classic",
+        "settings": {
+          "logo": "shopify://shop_images/Logo-header.png",
+          "logo_width": 70,
+          "main_linklist": "header",
+          "menu_alignment": "center",
+          "dropdown_click": false,
+          "display_search": true,
+          "icon_style": "icons",
+          "enable_overlay": false,
+          "show_text_shadow": true,
+          "overlay_link_color": "rgba(0,0,0,0)",
+          "overlay_link_hover_color": "rgba(0,0,0,0)",
+          "overlay_background": "rgba(0,0,0,0)",
+          "overlay_background_opacity": 0,
+          "overlay_logo_width": 80,
+          "enable_sticky": false,
+          "sticky_background_opacity": 100,
+          "scroll_logo_width": 80,
+          "width": "standard",
+          "vertical_alignment": "center",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-1": {
+        "type": "mega-menu-1",
+        "blocks": {
+          "24ada258-3196-427d-b08d-8e7ca14ecea9": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "tops",
+              "menu_1_link": "",
+              "menu_2": "athleisure",
+              "menu_2_link": "",
+              "menu_3": "accessories",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "80875280-35f5-497c-8210-81186a1318eb": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "bottoms",
+              "menu_1_link": "",
+              "menu_2": "sleepwear",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "4c7aac88-409f-4b29-a613-5251e5a97e8e": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "dresses",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "outerwear-3",
+              "menu_3_link": "",
+              "menu_4": "swimwear",
+              "menu_4_link": "shopify://collections/womens-swimwear",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "8ef52924-4e31-4e1b-9229-1ba10cb23582": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "shoes-2",
+              "menu_1_link": "",
+              "menu_2": "jewelry",
+              "menu_2_link": "shopify://collections/jewerly",
+              "menu_3": "bogg-bags",
+              "menu_3_link": "shopify://collections/bogg-bags",
+              "menu_4": "gameday",
+              "menu_4_link": "shopify://collections/womens-gameday",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "f7ad0ef6-9353-43ea-b104-4814a0c5b810": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "sets",
+              "menu_1_link": "shopify://collections/womens-sets",
+              "menu_2": "as-seen-on-tiktok",
+              "menu_2_link": "shopify://collections/tik-tok",
+              "menu_3": "under-30",
+              "menu_3_link": "shopify://collections/under-30",
+              "menu_4": "sale",
+              "menu_4_link": "shopify://collections/womens-sale",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "24ada258-3196-427d-b08d-8e7ca14ecea9",
+          "80875280-35f5-497c-8210-81186a1318eb",
+          "4c7aac88-409f-4b29-a613-5251e5a97e8e",
+          "8ef52924-4e31-4e1b-9229-1ba10cb23582",
+          "f7ad0ef6-9353-43ea-b104-4814a0c5b810"
+        ],
+        "settings": {
+          "parent_link": "women",
+          "enable_mega_menu_border": true,
+          "mega_menu_background_color": "#ffffff",
+          "mega_menu_text_color": "#000000",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer__icon-bar": {
+        "type": "footer__icon-bar",
+        "blocks": {
+          "footer__icon-bar-0": {
+            "type": "text",
+            "settings": {
+              "icon": "leaf",
+              "text": "100% Organic",
+              "link": "shopify://pages/contact"
+            }
+          },
+          "footer__icon-bar-1": {
+            "type": "text",
+            "settings": {
+              "icon": "bunny",
+              "text": "Cruelty free",
+              "link": "shopify://pages/test"
+            }
+          },
+          "footer__icon-bar-2": {
+            "type": "text",
+            "settings": {
+              "icon": "chat",
+              "text": "24/7 support",
+              "link": "shopify://blogs/news"
+            }
+          },
+          "footer__icon-bar-3": {
+            "type": "text",
+            "settings": {
+              "icon": "truck",
+              "text": "Free shipping",
+              "link": "shopify://collections/all"
+            }
+          }
+        },
+        "block_order": [
+          "footer__icon-bar-0",
+          "footer__icon-bar-1",
+          "footer__icon-bar-2",
+          "footer__icon-bar-3"
+        ],
+        "settings": {
+          "show_icon_bar": false,
+          "alignment": "center",
+          "icon_position": "row",
+          "size": "medium",
+          "background": "#ffffff",
+          "link_color": "#ffffff",
+          "link_hover_color": "#ffffff",
+          "text_color": "#ffffff",
+          "width": "standard",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "padding_top_m": 0,
+          "padding_bottom_m": 0,
+          "padding_left_m": 0,
+          "padding_right_m": 0,
+          "margin_top_m": 0,
+          "margin_bottom_m": 0,
+          "section_bg": "rgba(0,0,0,0)",
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "footer-classic": {
+        "type": "footer-classic",
+        "blocks": {
+          "footer-classic-0": {
+            "type": "logo",
+            "settings": {
+              "width": "3",
+              "mobile_width": "one-whole",
+              "logo": "shopify://shop_images/Footer-logo.png",
+              "size": "large",
+              "text": "",
+              "social_icons_footer": true
+            }
+          },
+          "f33f3fdd-2f4a-4237-9a42-fc3a4639ab28": {
+            "type": "newsletter",
+            "settings": {
+              "width": "4",
+              "mobile_width": "one-whole",
+              "newsletter_title": "Newsletter",
+              "newsletter_richtext": "<p>Be the first one to shop new arrivals and special sales events. Join now!</p>",
+              "display_first_name": false,
+              "display_last_name": false
+            }
+          },
+          "footer-classic-1": {
+            "type": "link_list",
+            "settings": {
+              "width": "3",
+              "mobile_width": "one-whole",
+              "menu": "helpful-information",
+              "social_icons_footer": false
+            }
+          },
+          "e988baed-a3b3-4491-8a49-f5dae727b207": {
+            "type": "link_list",
+            "settings": {
+              "width": "3",
+              "mobile_width": "one-whole",
+              "menu": "company",
+              "social_icons_footer": false
+            }
+          },
+          "946a7f59-5a97-4ff6-ba90-19c1dbb7b8a0": {
+            "type": "link_list",
+            "settings": {
+              "width": "3",
+              "mobile_width": "one-whole",
+              "menu": "quick-links",
+              "social_icons_footer": false
+            }
+          }
+        },
+        "block_order": [
+          "footer-classic-0",
+          "f33f3fdd-2f4a-4237-9a42-fc3a4639ab28",
+          "footer-classic-1",
+          "e988baed-a3b3-4491-8a49-f5dae727b207",
+          "946a7f59-5a97-4ff6-ba90-19c1dbb7b8a0"
+        ],
+        "custom_css": [],
+        "settings": {
+          "copyright_text": "<p>All Rights Reserved. </p>",
+          "display_designed_by": false,
+          "display_shopify": false,
+          "display_payment_methods": true,
+          "show_locale_selector": false,
+          "show_currency_selector": false,
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "fixed-message": {
+        "type": "fixed-message",
+        "settings": {
+          "text": "<p>We use cookies on our website to give you the best shopping experience. By using this site, you agree to its use of cookies. </p>",
+          "button_label": "I agree",
+          "button_style": "button--primary",
+          "background": "#000000",
+          "background_opacity": 77,
+          "text_color": "#FFFFFF",
+          "width": "wide",
+          "padding_top": 0,
+          "padding_bottom": 0,
+          "padding_left": 0,
+          "padding_right": 0,
+          "margin_top": 0,
+          "margin_bottom": 0,
+          "padding_top_m": 20,
+          "padding_bottom_m": 0,
+          "padding_left_m": 0,
+          "padding_right_m": 0,
+          "margin_top_m": 0,
+          "margin_bottom_m": 0,
+          "section_bg": "",
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_close_icon": true,
+          "show_popup_on_mobile": true,
+          "display_border": false,
+          "border_color": "#cccccc",
+          "border_width": 10,
+          "newsletter_title": "Subscribe",
+          "newsletter_text": "<p>Sign up to get the latest on sales, new releases and more …</p>",
+          "newsletter_section_text_align": "center",
+          "text_color": "#000000",
+          "background_color": "#ffffff",
+          "show_signup_form": true,
+          "display_first_name": true,
+          "display_last_name": true,
+          "image_cropping": "center",
+          "image_position": "left",
+          "overlay_color": "#000000",
+          "overlay_background_opacity": 80,
+          "popup_delay": 2,
+          "popup_days_to_hide": "30",
+          "animation": "none",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-2": {
+        "type": "mega-menu-2",
+        "blocks": {
+          "542a1500-bbe5-43dc-9dc2-e0f5bb26865f": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "shirts-1",
+              "menu_1_link": "",
+              "menu_2": "athleisure-1",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "287779da-d2c2-46c7-abb5-87be6cd77078": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "bottoms-2",
+              "menu_1_link": "",
+              "menu_2": "outerwear-2",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "fc951a79-7f2c-48a4-88c1-a1b0d5e13ba3": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "accessories-1",
+              "menu_1_link": ""
+            }
+          },
+          "8d16a209-f4f4-497a-af1f-6cafb2580486": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "shoes-3",
+              "menu_1_link": ""
+            }
+          },
+          "7a2dcba2-8fbb-4418-bf18-5119d2727ea0": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "shopify://collections/mens-outerwear",
+              "image_caption_top": "",
+              "menu_1": "big-tall",
+              "menu_1_link": "shopify://collections/big-tall",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "sale",
+              "menu_3_link": "shopify://collections/mens-sale",
+              "menu_4": "mens-swimwear",
+              "menu_4_link": "shopify://collections/mens-swimwear",
+              "image_link_bottom": "shopify://collections/mens-swimwear",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "542a1500-bbe5-43dc-9dc2-e0f5bb26865f",
+          "287779da-d2c2-46c7-abb5-87be6cd77078",
+          "fc951a79-7f2c-48a4-88c1-a1b0d5e13ba3",
+          "8d16a209-f4f4-497a-af1f-6cafb2580486",
+          "7a2dcba2-8fbb-4418-bf18-5119d2727ea0"
+        ],
+        "settings": {
+          "parent_link": "men",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "shopify://collections/mens-new-arrivals-1",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-3": {
+        "type": "mega-menu-3",
+        "blocks": {
+          "721d750c-a58d-431a-b987-288c4785f081": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "shoes-1",
+              "menu_1_link": "shopify://collections/womens-shoes"
+            }
+          },
+          "d51e8bc8-1e9f-4874-baaf-a5fdfd2bc55c": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "outerwear",
+              "menu_1_link": "shopify://collections/mens-outerwear"
+            }
+          },
+          "6c5964f9-566e-427b-862f-79ede1444b9a": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/17.jpg",
+              "image_link": "",
+              "image_caption": "<p><strong>Featured Collection</strong><br/><a href=\"/collections/frontpage\" title=\"New Arrivals\">See more</a></p>"
+            }
+          }
+        },
+        "block_order": [
+          "721d750c-a58d-431a-b987-288c4785f081",
+          "d51e8bc8-1e9f-4874-baaf-a5fdfd2bc55c",
+          "6c5964f9-566e-427b-862f-79ede1444b9a"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-4": {
+        "type": "mega-menu-4",
+        "blocks": {
+          "mega-menu-4-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "shirts",
+              "menu_1_link": ""
+            }
+          },
+          "df047a2b-5da2-4ac5-a621-e0a3c5c81553": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "bottoms",
+              "menu_1_link": "shopify://collections/mens-bottoms"
+            }
+          },
+          "20497599-f851-4d71-99d0-d2f2d3990101": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "accessories",
+              "menu_1_link": ""
+            }
+          },
+          "0aae60df-e4b9-4696-8bce-a8b3bbe94339": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "shoes",
+              "menu_1_link": "shopify://collections/mens-shoes"
+            }
+          },
+          "f8bb00ab-ec58-43e4-add5-4739edf3f15c": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "outerwear",
+              "menu_1_link": ""
+            }
+          },
+          "9d16e1df-d830-472a-9398-bb11e24a0f05": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/17.jpg",
+              "image_link": "",
+              "image_caption": "<p><strong>Featured Collection</strong><br/><a href=\"/collections/frontpage\" title=\"New Arrivals\">See more</a></p>"
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-4-0",
+          "df047a2b-5da2-4ac5-a621-e0a3c5c81553",
+          "20497599-f851-4d71-99d0-d2f2d3990101",
+          "0aae60df-e4b9-4696-8bce-a8b3bbe94339",
+          "f8bb00ab-ec58-43e4-add5-4739edf3f15c",
+          "9d16e1df-d830-472a-9398-bb11e24a0f05"
+        ],
+        "settings": {
+          "parent_link": "",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-5": {
+        "type": "mega-menu-5",
+        "blocks": {
+          "mega-menu-5-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "womens-gameday",
+              "menu_1_link": ""
+            }
+          },
+          "menu_yRd7jR": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "mens-gameday",
+              "menu_1_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-5-0",
+          "menu_yRd7jR"
+        ],
+        "settings": {
+          "parent_link": "Gameday",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-6": {
+        "type": "mega-menu-6",
+        "blocks": {
+          "mega-menu-6-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "collections",
+              "menu_1_link": ""
+            }
+          },
+          "mega-menu-6-2": {
+            "type": "mixed",
+            "settings": {
+              "richtext_top": "",
+              "image_link_top": "",
+              "image_caption_top": "",
+              "menu_1": "mens-collections",
+              "menu_1_link": "",
+              "menu_2": "",
+              "menu_2_link": "",
+              "menu_3": "",
+              "menu_3_link": "",
+              "menu_4": "",
+              "menu_4_link": "",
+              "image_link_bottom": "",
+              "richtext_bottom": ""
+            }
+          },
+          "mega-menu-6-1": {
+            "type": "featured_promo",
+            "disabled": true,
+            "settings": {
+              "richtext": "<p>Add description and links to your promotion</p>",
+              "bgr_color": "#eeeeee",
+              "text_color": "#000000",
+              "promo_link": "",
+              "button_label": "Shop now",
+              "button_style": "button--primary"
+            }
+          },
+          "mega-menu-6-3": {
+            "type": "empty_column",
+            "disabled": true,
+            "settings": {}
+          },
+          "mega-menu-6-4": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image_link": "",
+              "image_caption": "<p>Image caption appears here</p>"
+            }
+          },
+          "mega-menu-6-5": {
+            "type": "featured_product",
+            "disabled": true,
+            "settings": {
+              "featured_product": "",
+              "richtext_bottom": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-6-0",
+          "mega-menu-6-2",
+          "mega-menu-6-1",
+          "mega-menu-6-3",
+          "mega-menu-6-4",
+          "mega-menu-6-5"
+        ],
+        "settings": {
+          "parent_link": "Collections",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      },
+      "mega-menu-7": {
+        "type": "mega-menu-7",
+        "blocks": {
+          "mega-menu-7-0": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "womens-gameday",
+              "menu_1_link": ""
+            }
+          },
+          "d457536c-4a4e-43da-88bb-51918d4f8724": {
+            "type": "menu",
+            "settings": {
+              "menu_1": "mens-gameday",
+              "menu_1_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "mega-menu-7-0",
+          "d457536c-4a4e-43da-88bb-51918d4f8724"
+        ],
+        "settings": {
+          "parent_link": "gameday",
+          "enable_mega_menu_border": false,
+          "mega_menu_background_color": "#f6f6f6",
+          "mega_menu_text_color": "#404040",
+          "show_mega_bottom_bar": false,
+          "mega_bottom_bar_icon": "",
+          "mega_bottom_bar_text": "Add your deal, information or promotional text",
+          "mega_bottom_bar_link": "",
+          "size": "regular",
+          "bottom_banner_bg": "#007ace",
+          "bottom_banner_text": "#efefef",
+          "css_class": "",
+          "custom_css": ""
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      },
+      "4252583770683550135": {
+        "type": "shopify://apps/redo-free-return-automation/blocks/redo_app_embed/c613644b-6df4-4d11-b336-43a5c06745a1",
+        "disabled": true,
+        "settings": {}
+      }
+    }
+  },
+  "platform_customizations": {
+    "custom_css": []
+  }
+}

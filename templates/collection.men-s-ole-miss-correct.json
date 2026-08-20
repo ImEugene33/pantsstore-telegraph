@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "fallback_image_banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/5_9da7af22-7f5e-4078-91d1-e1e897e7e4da.png",
+        "image_darken": false,
+        "banner_height": "medium",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 0,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "main": {
+      "type": "collection-template-boost-pfs-filter",
+      "custom_css": [],
+      "settings": {}
+    },
+    "index_divider_dKJqxW": {
+      "type": "index__divider",
+      "name": "Divider",
+      "settings": {
+        "divider_style": "long",
+        "divider_width": 3,
+        "divider_color": "#71b954",
+        "alignment": "center",
+        "width": "wide",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_VHCTdD": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Gameday for Ole Miss",
+        "subheading": "<p>Game day in Oxford is more than football, it’s a tradition. Whether you’re packed into Vaught-Hemingway Stadium or watching with friends at a tailgate, you’ve got to look the part. That’s where Pants Store comes in. We’ve got the best men's Ole Miss Rebels outfits, from the classic football jersey to everyday pieces you can rock well past kickoff. Show up ready to cheer on the Rebels in gear that combines comfort, style, and Rebel pride, because representing your favorite team should feel effortless.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "rgba(0,0,0,0)",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 20,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_RaDNWp": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_43TCa3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/om_men_3.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_JWBypN": {
+          "type": "text",
+          "settings": {
+            "title": "Shirts That Rep the Rebels",
+            "heading_size": "regular",
+            "text": "<p>Start strong with a shirt that screams Ole Miss spirit. Our Ole Miss football shirts range from graphic tees to button-downs in the iconic powder blues, so you can match your look to your vibe. And when it comes to the ultimate gameday fit? These polos and button-downs aren’t just for Hemingway Stadium, but also fit into your everyday wardrobe, boasting your team pride wherever you go.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_43TCa3",
+        "text_JWBypN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_dPQJ3P": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "text_PrpLAk": {
+          "type": "text",
+          "settings": {
+            "title": "Hats & Accessories with Rebel Pride",
+            "heading_size": "regular",
+            "text": "<p>Cap off your outfit with accessories that keep your Ole Miss Rebels look sharp. Grab a hat with the Rebel logo for sunny tailgates. Sunglasses, belts, and other extras tie everything together so you can cheer loud and proud. Perfect for rival games against Mississippi State or just hanging with the crew, these finishing touches keep your Rebel fan energy strong.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "#fefaef",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        },
+        "image_WFxX6a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/om_men_1.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_PrpLAk",
+        "image_WFxX6a"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_image_with_text_JBjpEQ": {
+      "type": "index__image-with-text",
+      "blocks": {
+        "image_p8qBcx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/om_men_2.jpg",
+            "image_crop": "none",
+            "image_link": ""
+          }
+        },
+        "text_nyzff8": {
+          "type": "text",
+          "settings": {
+            "title": "Pants That Play All Four Quarters",
+            "heading_size": "regular",
+            "text": "<p>No Ole Miss Rebels gameday outfit is complete without the right pair of pants. Our selection of jeans and khakis is made to pair perfectly with your go-to polo or football jersey, giving you a sharp, put-together look that still feels comfortable from tailgate to the fourth quarter.</p><p>Jeans keep things casual and durable for long days around Vaught-Hemingway Stadium, while khakis bring a polished edge that’s ideal for a bowl game watch party or a night out after the win. Either way, these versatile styles transition seamlessly into your everyday wardrobe, because Rebel pride deserves a spot in every moment, not just on game day.</p>",
+            "button_label": "",
+            "link": "",
+            "button_style": "button--primary",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "rgba(0,0,0,0)",
+            "alignment": "left",
+            "vertical_position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_p8qBcx",
+        "text_nyzff8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "width": "standard",
+        "show_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_left": 0,
+        "padding_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "#fefaef",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    },
+    "index_heading_dbd38q": {
+      "type": "index__heading",
+      "name": "Heading",
+      "settings": {
+        "preheading": "",
+        "title": "Why Pants Store",
+        "subheading": "<p>Pants Store is all about making gameday gear simple, stylish, and family-friendly. We’ve been outfitting the South for decades, giving Ole Miss Rebels fans clothing they’ll actually want to wear. From free shipping on orders over $100 to easy returns, shopping with us is as smooth as a Saturday win. Whether you’re a student headed to your first game, a longtime Rebel fan in your favorite football jersey, or a dad building his Ole Miss spirit collection, Pants Store has your back. Rebel pride looks better here.</p>",
+        "preheading_color": "rgba(0,0,0,0)",
+        "heading_color": "#71b954",
+        "subheading_color": "rgba(0,0,0,0)",
+        "background": "#ffffff",
+        "gradient": "#ffffff",
+        "gradient_rotation": 0,
+        "heading_alignment": "center",
+        "vertical_spacing": "medium",
+        "width": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 70,
+        "padding_right": 70,
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top_m": 20,
+        "padding_bottom_m": 0,
+        "padding_left_m": 0,
+        "padding_right_m": 0,
+        "margin_top_m": 0,
+        "margin_bottom_m": 0,
+        "section_bg": "",
+        "animation": "none",
+        "css_class": "",
+        "custom_css": ""
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "index_divider_dKJqxW",
+    "index_heading_VHCTdD",
+    "index_image_with_text_RaDNWp",
+    "index_image_with_text_dPQJ3P",
+    "index_image_with_text_JBjpEQ",
+    "index_heading_dbd38q"
+  ]
+}
