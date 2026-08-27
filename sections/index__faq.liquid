@@ -17,18 +17,21 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {% for block in section.blocks %}
-      {% unless block.type == 'heading' %}
+    {%- assign first_faq_item = true -%}
+    {%- for block in section.blocks -%}
+      {%- unless block.type == 'heading' or block.type == 'image' -%}
+        {%- if first_faq_item == false -%},{%- endif -%}
         {
           "@type": "Question",
-          "name": "{{ block.settings.title | escape }}",
+          "name": {{ block.settings.title | escape | json }},
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "{{ block.settings.answer | strip_html }}"
+            "text": {{ block.settings.answer | strip_html | json }}
           }
-        }{% unless forloop.last %},{% endunless %}
-      {% endunless %}
-    {% endfor %}
+        }
+        {%- assign first_faq_item = false -%}
+      {%- endunless -%}
+    {%- endfor -%}
   ]
 }
 </script>
