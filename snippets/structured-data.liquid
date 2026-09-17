@@ -49,6 +49,45 @@
       "description": {{ article_description | json }}
     }
   </script>
+
+  {%- if article.content contains '<details' and article.content contains '<summary' -%}
+    {%- assign details_blocks = article.content | split: '<details' -%}
+    {%- assign faq_count = 0 -%}
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {%- for block in details_blocks -%}
+          {%- if forloop.first -%}{%- continue -%}{%- endif -%}
+          {%- if block contains '<summary' and block contains '</summary>' -%}
+            {%- assign summary_part = block | split: '</summary>' | first -%}
+            {%- assign last_summary = summary_part | split: '<summary' | last -%}
+            {%- assign summary_html = '<summary' | append: last_summary | append: '</summary>' -%}
+            {%- assign question_text = summary_html | strip_html | replace: '+', '' | strip -%}
+            
+            {%- assign answer_part = block | split: '</summary>' | last | split: '</details>' | first -%}
+            {%- assign answer_text = answer_part | strip_html | strip -%}
+            
+            {%- if question_text != blank and answer_text != blank -%}
+              {%- if faq_count > 0 -%},{%- endif -%}
+              {
+                "@type": "Question",
+                "name": {{ question_text | json }},
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": {{ answer_text | json }}
+                }
+              }
+              {%- assign faq_count = faq_count | plus: 1 -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      ]
+    }
+    </script>
+  {%- endif -%}
 {% endif %}
 
 {% comment %}
